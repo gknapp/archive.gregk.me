@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  installing pdo sqlite3 support on ubuntu - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
+<link rel='prev' title='PHP UK Conference 2011' href='../../../index.html?p=880' />
+<link rel='next' title='Last day at Alexander Street Press' href='../../../index.html?p=997' />
+
+<link rel='canonical' href='index.html#comments' />
+<link rel='shortlink' href='../../../index.html?p=983' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="../../../index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="../../../resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="../../../about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="../../../resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="../../../photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="../../../resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="../../../software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="../../../resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="../../../contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-983">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">23</div><div class="month">Apr</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="../../../index.html?p=983">Installing PDO sqlite3 support on Ubuntu</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2011-04-23T06:41:59+00:00">2011</abbr> // 
+                        	<a href="../../../category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="../../../category/linux/index.html" title="View all posts in linux" rel="category tag">linux</a>, <a href="../../../category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="../../../index.html?p=983#comments">27</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p>I was surprised to find PDO sqlite support wasn&#8217;t included by default with PHP 5 on my Ubuntu (10.04) virtual machine. You can check which drivers are available with this small snippet of code (assuming you run this from the command line):</p>
+<pre class="prettyprint">
+foreach (PDO::getAvailableDrivers() as $driver) {
+    echo $driver . PHP_EOL;
+}
+</pre>
+<p><span id="more-983"></span><br />
+<strong>Update:</strong> Long story short, I tried the following command on this web server and it worked without any hiccups. Try this first and see where it gets you, the rest of the article may dig you out of a hole if things break.</p>
+<pre class="bash">
+$ sudo apt-get install php5-sqlite
+</pre>
+<p>For whatever reason, my local Ubuntu VM I develop on had some issues, I originally wrote this blog post around the problems I encountered then.</p>
+<hr/>
+I initially tried installing the <code>php5-sqlite</code> package:</p>
+<pre class="bash">
+$ sudo apt-get install php5-sqlite
+</pre>
+<p>This appeared to install successfully but did not enable the sqlite driver in PHP. I then tried to install the sqlite driver via PECL but this failed to install both <code>pdo</code> and <code>pdo_sqlite</code>.</p>
+<pre class="bash">
+<span class="hilite">$ sudo pecl install pdo</span>
+...
+make: *** [pdo_dbh.lo] Error 1
+ERROR: `make' failed
+<span class="hilite">$ sudo pecl install pdo_sqlite</span>
+...
+configure: error: Cannot find php_pdo_driver.h.
+ERROR: `/tmp/pear/temp/PDO_SQLITE/configure' failed
+</pre>
+<p>Apparently this corrupts the current PDO install. What worked for me in the end:</p>
+<pre class="bash">
+$ apt-get --purge remove php5*
+$ sudo apt-get install php5 php5-sqlite php5-mysql
+$ sudo apt-get install php-pear php-apc php5-curl
+$ sudo apt-get autoremove
+</pre>
+<p>The third (commonly used libraries) and fourth (clean up) lines are optional.</p>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=Installing PDO sqlite3 support on Ubuntu" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+      <div class="comment hcomment" id="comment-1289">
+      <small class="poster vcard">
+                  <span class="fn">Sinope</span> //
+                <abbr class="dtposted" title="2011-08-05T10:13:52+00:00">05.Aug.2011</abbr> // 10:13      </small>
+      <div class="description">
+        <p>Thx! It&#8217;s work for me!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1300">
+      <small class="poster vcard">
+                  <a href="http://none" class="url fn" name="comment-1300" rel="external nofollow">Andre Linoge</a> //                 <abbr class="dtposted" title="2011-08-10T18:45:33+00:00">10.Aug.2011</abbr> // 18:45      </small>
+      <div class="description">
+        <p>Good article! It&#8217;s work for me too!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1305">
+      <small class="poster vcard">
+                  <span class="fn">yoryer</span> //
+                <abbr class="dtposted" title="2011-08-12T05:36:32+00:00">12.Aug.2011</abbr> // 05:36      </small>
+      <div class="description">
+        <p>Thank you for the article!<br />
+I&#8217;ve had problems installing the PDO extension for sqlite3 when I&#8217;m trying to use  the Symfony framework on my VM with Ubuntu 11.04 and this works fine for me!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1441">
+      <small class="poster vcard">
+                  <span class="fn">Groof</span> //
+                <abbr class="dtposted" title="2011-10-07T16:14:57+00:00">07.Oct.2011</abbr> // 16:14      </small>
+      <div class="description">
+        <p>Thanks,<br />
+It works !!!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1465">
+      <small class="poster vcard">
+                  <a href="http://blog.rootentropy.co.za" class="url fn" name="comment-1465" rel="external nofollow">Trowalts</a> //                 <abbr class="dtposted" title="2011-10-20T10:15:48+00:00">20.Oct.2011</abbr> // 10:15      </small>
+      <div class="description">
+        <p>Also if apache is running you might have to restart it for the install to take effect.</p>
+<p>sudo /etc/init.d/apache2 restart</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1481">
+      <small class="poster vcard">
+                  <span class="fn">bob</span> //
+                <abbr class="dtposted" title="2011-11-04T11:23:30+00:00">04.Nov.2011</abbr> // 11:23      </small>
+      <div class="description">
+        <p>um, thanks. that &#8211;purge command wipes out a lot more than php. rips out your phpMyAdmin installation including any and all config settings you had&#8230; have to start from scratch now.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1486">
+      <small class="poster vcard">
+                  <span class="fn">Aziz</span> //
+                <abbr class="dtposted" title="2011-11-06T07:51:30+00:00">06.Nov.2011</abbr> // 07:51      </small>
+      <div class="description">
+        <p>Thanks very very much!!! &#8230; just saved my day :)</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1548">
+      <small class="poster vcard">
+                  <span class="fn">Doki</span> //
+                <abbr class="dtposted" title="2011-12-19T03:54:38+00:00">19.Dec.2011</abbr> // 03:54      </small>
+      <div class="description">
+        <p>Thank you Hero :)</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1583">
+      <small class="poster vcard">
+                  <span class="fn">Serge</span> //
+                <abbr class="dtposted" title="2012-01-04T08:35:40+00:00">04.Jan.2012</abbr> // 08:35      </small>
+      <div class="description">
+        <p>Thanks a lot! I despaired of finding a solution, but you brought me back to life.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1695">
+      <small class="poster vcard">
+                  <span class="fn">Anteneh</span> //
+                <abbr class="dtposted" title="2012-02-13T11:09:51+00:00">13.Feb.2012</abbr> // 11:09      </small>
+      <div class="description">
+        <p>Thank you! you really solve my problem!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1773">
+      <small class="poster vcard">
+                  <span class="fn">Jean-Philippe</span> //
+                <abbr class="dtposted" title="2012-03-20T02:14:28+00:00">20.Mar.2012</abbr> // 02:14      </small>
+      <div class="description">
+        <p>Thanks, you just saved me a couple of hours!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1823">
+      <small class="poster vcard">
+                  <span class="fn">George</span> //
+                <abbr class="dtposted" title="2012-03-31T08:22:33+00:00">31.Mar.2012</abbr> // 08:22      </small>
+      <div class="description">
+        <p>Works like a charm! Cheers!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1874">
+      <small class="poster vcard">
+                  <span class="fn">Matteo</span> //
+                <abbr class="dtposted" title="2012-04-12T09:15:12+00:00">12.Apr.2012</abbr> // 09:15      </small>
+      <div class="description">
+        <p>Thank you, you save my time!!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1880">
+      <small class="poster vcard">
+                  <span class="fn">tons_1</span> //
+                <abbr class="dtposted" title="2012-04-13T13:46:20+00:00">13.Apr.2012</abbr> // 13:46      </small>
+      <div class="description">
+        <p>It worked! Thanks a lot!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1926">
+      <small class="poster vcard">
+                  <span class="fn">jand</span> //
+                <abbr class="dtposted" title="2012-04-25T15:33:11+00:00">25.Apr.2012</abbr> // 15:33      </small>
+      <div class="description">
+        <p>$ sudo apt-get install php5-sqlite did the trick. Thanks a lot!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-2130">
+      <small class="poster vcard">
+                  <span class="fn">ezau</span> //
+                <abbr class="dtposted" title="2012-06-04T09:52:45+00:00">04.Jun.2012</abbr> // 09:52      </small>
+      <div class="description">
+        <p>Thanks. It works now!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-2302">
+      <small class="poster vcard">
+                  <span class="fn">sjkang</span> //
+                <abbr class="dtposted" title="2012-06-18T08:50:35+00:00">18.Jun.2012</abbr> // 08:50      </small>
+      <div class="description">
+        <p>Thanks. very thanks</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-3032">
+      <small class="poster vcard">
+                  <span class="fn">Doug Bird</span> //
+                <abbr class="dtposted" title="2012-08-09T00:23:03+00:00">09.Aug.2012</abbr> // 00:23      </small>
+      <div class="description">
+        <p>Nope. Does not work in my ubuntu setup.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-3609">
+      <small class="poster vcard">
+                  <span class="fn">sophia</span> //
+                <abbr class="dtposted" title="2012-09-27T02:44:48+00:00">27.Sep.2012</abbr> // 02:44      </small>
+      <div class="description">
+        <p>Thinks! I have been troubled by this problem for a whole day.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4038">
+      <small class="poster vcard">
+                  <span class="fn">Dave Howler</span> //
+                <abbr class="dtposted" title="2012-11-20T15:05:06+00:00">20.Nov.2012</abbr> // 15:05      </small>
+      <div class="description">
+        <p>A lot of people forget that restarting the server won&#8217;t always work.<br />
+Do a full stop and start after installing a module, you&#8217;ll save yourself some headaches.   Sqlite did not work for me until I did ;)<br />
+apachectl stop<br />
+apachectl start<br />
+(or the like).</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4344">
+      <small class="poster vcard">
+                  <span class="fn">Fede</span> //
+                <abbr class="dtposted" title="2013-01-10T13:08:14+00:00">10.Jan.2013</abbr> // 13:08      </small>
+      <div class="description">
+        <p>Great post, thanks! I&#8217;ve fixed my problem</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4354">
+      <small class="poster vcard">
+                  <span class="fn">Kirill</span> //
+                <abbr class="dtposted" title="2013-01-10T23:46:20+00:00">10.Jan.2013</abbr> // 23:46      </small>
+      <div class="description">
+        <p>Just started with SQLite at Ubuntu. Not sure if this is my case. But I just did what you told but my php code didn&#8217;t create a db file&#8230;</p>
+<p>$_db = new SQLiteDatabase(&#8220;gbook.db&#8221;);</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4578">
+      <small class="poster vcard">
+                  <span class="fn">Kevin</span> //
+                <abbr class="dtposted" title="2013-02-07T07:17:08+00:00">07.Feb.2013</abbr> // 07:17      </small>
+      <div class="description">
+        <p>Great post. I&#8217;ve been chasing my tail for the past few hours. Now I found this and my problem is solved. Thanks!!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-5853">
+      <small class="poster vcard">
+                  <span class="fn">Prad</span> //
+                <abbr class="dtposted" title="2013-07-05T08:20:36+00:00">05.Jul.2013</abbr> // 08:20      </small>
+      <div class="description">
+        <p>The command<br />
+apt-get &#8211;purge remove php5*<br />
+will do more harm than good on an established system, as it will remove all php modules loaded that might be required for other software.</p>
+<p>Use the following command from the shell<br />
+$ php -m<br />
+to get the list of already installled modules PRIOR to the purge, and re-install them prior to the apt-get autoremove.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-6337">
+      <small class="poster vcard">
+                  <span class="fn">Cal-A52</span> //
+                <abbr class="dtposted" title="2013-08-27T20:43:25+00:00">27.Aug.2013</abbr> // 20:43      </small>
+      <div class="description">
+        <p>I installed LAMP Server with Ubuntu 12.04, but PDO sqlite support wasn’t included by default with LAMP Server on the Ubuntu (12.04) virtual machine. I found this post and it works for me as well.  Thank you Greg and Prad!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-16024">
+      <small class="poster vcard">
+                  <span class="fn">Ivan</span> //
+                <abbr class="dtposted" title="2014-04-16T07:25:22+00:00">16.Apr.2014</abbr> // 07:25      </small>
+      <div class="description">
+        <p>Have one notice abaut: if you don&#8217;t like apache and use nginx or someting else where php-fpm used, &#8211; you must install this too:<br />
+sudo apt-get install php5-fpm</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-20592">
+      <small class="poster vcard">
+                  <span class="fn">miguel aguilar ingali</span> //
+                <abbr class="dtposted" title="2014-05-24T17:20:09+00:00">24.May.2014</abbr> // 17:20      </small>
+      <div class="description">
+        <p>Thanks!! &#8230;&#8230;&#8230;&#8230; :)</p>
+      </div>
+    </div>
+    	<div class="navigation">
+		<div class="alignleft"><a href="../../../index.html?p=983#comments" >&laquo; Older Comments</a></div>
+		<div class="alignright"></div>
+	</div>
+</div>
+
+
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="../../../tag/pdo/index.html" rel="tag">pdo</a></li><li><a href="../../../tag/pecl/index.html" rel="tag">pecl</a></li><li><a href="../../../tag/php/index.html" rel="tag">php</a></li><li><a href="../../../tag/sqlite3/index.html" rel="tag">sqlite3</a></li><li><a href="../../../tag/ubuntu/index.html" rel="tag">ubuntu</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>

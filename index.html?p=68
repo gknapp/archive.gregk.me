@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  mounting shared folders in mac os x leopard - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+
+<link rel='prev' title='Removing the MobileMe icon from the menu bar in Leopard' href='index.html?p=69' />
+<link rel='next' title='Tuning Eclipse IDE on Mac OS X' href='index.html?p=72' />
+
+<link rel='canonical' href='index.html?p=68' />
+<link rel='shortlink' href='index.html?p=68' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-68">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">12</div><div class="month">Nov</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="index.html?p=68">Mounting shared folders in Mac OS X Leopard</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2008-11-12T17:20:55+00:00">2008</abbr> // 
+                        	<a href="category/osx/index.html" title="View all posts in osx" rel="category tag">osx</a> // <span class="comment"><a href="index.html?p=68#comments">0</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p>Having recently switched to Mac OS X, I stumbled upon issues when mounting shared folders on my Macbook Pro from our linux development server. Previously, both Windows Vista and Ubuntu have had no trouble sharing a directory then mounting it from the dev server via <code>smbfs</code>. This enables me (and other developers) to edit files locally which then also appear as a local files to our development server, where we run Apache / MySQL etc.<br />
+<span id="more-68"></span><br />
+After sniffing around System Preferences in Leopard, and juggling some account credentials so SMB login details pair up, I could successfully mount my workspace folder. Make sure the appropriate permissions are set on your shared folder, then click options and disable AFP, and enable SMB.</p>
+<div class="center">
+<img src="resources/images/mac-sharing.png" alt="System Preferences &gt; Sharing" /><br />
+<img src="resources/images/mac-sharing-options.png" alt="Sharing options" />
+</div>
+<p>Unfortunately, minutes later it unmounted itself. After some Googling, I found others <a href="http://forums.macosxhints.com/showthread.php?t=66468">with the same issue</a>.</p>
+<p>I read that changing from <code>smbfs</code> to <code>cifs</code> helps remedy this problem. I gave it a shot and it sure enough it cured the dropping issue.</p>
+<p>However, when using <code>cifs</code> I would encounter permission problems when I ran a script that manipulated / generated files in my workspace. My OS X uid and gid do not match those of the development server (Ubuntu); Mac uids start at 501 and Ubuntu starts above 1000.</p>
+<p>Fortunately simply telling the mount to ignore permissions seem to solve the problem. This is the mount entry in the development server&#8217;s <code>/etc/fstab</code>:</p>
+<pre class="bash">//192.168.0.1/workspace /home/greg/workspace cifs noperm,credentials=/home/greg/workspace.smb,rw 0 0</pre>
+<p>That should be all on one line. Substitute 192.168.0.1 with your Macbook&#8217;s <a href="http://www.google.co.uk/search?q=UNC+name">UNC name</a> or IP address. Likewise with &#8216;workspace&#8217; and the mount point on the local server.</p>
+<p>The username and password specified in your credentials file will have to match your OS X user and password.</p>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=Mounting shared folders in Mac OS X Leopard" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+			<p>No comments for this post.</p>
+	 </div>
+
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="tag/cifs/index.html" rel="tag">cifs</a></li><li><a href="tag/fstab/index.html" rel="tag">fstab</a></li><li><a href="tag/linux/index.html" rel="tag">linux</a></li><li><a href="tag/smbfs/index.html" rel="tag">smbfs</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>

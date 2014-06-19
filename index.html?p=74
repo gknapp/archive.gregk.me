@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  setup canon pixma mp620 wirelessly on mac os x - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+
+<link rel='prev' title='Installing PEAR Spreadsheet_Excel_Writer' href='index.html?p=73' />
+<link rel='next' title='Javascript sub string nuances' href='index.html?p=86' />
+
+<link rel='canonical' href='index.html?p=74' />
+<link rel='shortlink' href='index.html?p=74' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-74">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">11</div><div class="month">Jul</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="index.html?p=74">Setup Canon PIXMA MP620 wirelessly on Mac OS X</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2009-07-11T17:31:37+00:00">2009</abbr> // 
+                        	<a href="category/hardware/index.html" title="View all posts in hardware" rel="category tag">hardware</a>, <a href="category/osx/index.html" title="View all posts in osx" rel="category tag">osx</a> // <span class="comment"><a href="index.html?p=74#comments">10</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p><b>Update April, 2010:</b> I&#8217;m happy to report this pain is avoided with the latest (10.26.2) <a href="http://software.canon-europe.com/software/0037293.asp">MP620 CUPS drivers</a> from Canon when installing this printer on Snow Leopard. After installing the drivers, then adding a new printer, you have to wait a few minutes for SL to detect the printer before it displays it in the list.</p>
+<hr />
+<p>This might seem like dumb thing to blog about but I spent an hour or more trying to get this to work. Partly due to my own stubbornness, I resent using driver installation CDs. The driver on them is typically out of date (certainly for graphics cards), and they&#8217;re loaded with bloatware crap you don&#8217;t need to operate your device / peripheral. Manufacturers love to re-invent the wheel, providing a utility for a service that already exists within the operating system.<br />
+<span id="more-74"></span><br />
+So I ran off to the Canon site and grabbed the latest MP620 CUPS driver, thinking this would be a simple install and &#8220;Print Test Page&#8221;, job done &#8211; but nooooooo.</p>
+<p>So the bad news, yes you have to insert the Macintosh setup CD. I selected &#8220;Custom Install&#8221; and selected the driver, the MP Navigator EX software (for scanning) and the Canon IJ Network utility. Despite only wanting to install this printer over a wireless network connection, <b>you must elect to install it via USB first</b>.</p>
+<p>Once set up is complete, you&#8217;ll have to restart and then be presented with the connection type you&#8217;d like to use to communicate with your MP620. Select USB.</p>
+<p>At this point it&#8217;s probably wise to check your firewall is disabled in OS X (just temporarily), head to System Preferences, click the &#8216;Security&#8217; icon, select the Firewall tab, and check &#8216;Allow all incoming connections&#8217; (this turns your firewall off, and potentially lets the bad guys in). This way we won&#8217;t run into problems using wireless later.</p>
+<div class="center"><img src="http://i993.photobucket.com/albums/af54/g4egk/mp620-1.jpg" height="119" /></div>
+<p>1. Click &#8216;Show All&#8217; then &#8216;Print &#038; Fax&#8217;, you should see &#8216;Canon MP620 series&#8217; in the list.</p>
+<div class="center"><img src="http://i993.photobucket.com/albums/af54/g4egk/mp620-2.jpg" height=237" /></div>
+<p>2. Select your MP620 then click the &#8216;Open Print Queue&#8230;&#8217; button.<br />
+3. Click &#8216;Utility&#8217; on the right hand side of the toolbar.</p>
+<div class="center"><img src="http://i993.photobucket.com/albums/af54/g4egk/mp620-3.jpg" height="117" /></div>
+<p>4. In the window that opens, select &#8216;Network&#8217; if it&#8217;s not already selected.<br />
+You should see your MP620 in the list, select it.<br />
+5. Click the &#8216;Network Settings&#8217; button, you should now be able to set your wireless access point, and enter the passphrase.<br />
+6. Once you&#8217;ve done this, add this printer.<br />
+You&#8217;ll have two MP620&#8242;s but one of them will have a MAC address (e.g. 00:00:85.af.62.f0) in the title or settings, this is the one you want to keep, remove the other printer profile which is the USB connection.<br />
+7. You can remove the profile with the &#8216;-&#8217; button.<br />
+8. Unplug your USB cable.<br />
+9. On the wireless profile, click the &#8216;Open Print Queue&#8230;&#8217; button and from the Printer menu select &#8216;Print Test Page&#8217;.</p>
+<div class="center"><img src="http://i993.photobucket.com/albums/af54/g4egk/mp620-4.jpg" height="214" /></div>
+<p>Voila! You&#8217;re printing wirelessly.</p>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=Setup Canon PIXMA MP620 wirelessly on Mac OS X" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+      <div class="comment hcomment" id="comment-269">
+      <small class="poster vcard">
+                  <span class="fn">rob</span> //
+                <abbr class="dtposted" title="2010-03-16T21:16:17+00:00">16.Mar.2010</abbr> // 21:16      </small>
+      <div class="description">
+        <p>i know i&#39;m digging this up from the grave, but i feel the same way. i&#39;m on windows though, i could not get this thing setup without using their stupid software, ended up running all their software, getting the printer setup and then uninstalling all of their crap except for the drivers&#8230; worked for me and i don&#39;t have all of their crap on my hard drive.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-270">
+      <small class="poster vcard">
+                  <a href="http://www.gregk.co.uk" class="url fn" name="comment-270" rel="external nofollow">Greg K</a> //                 <abbr class="dtposted" title="2010-03-17T10:51:56+00:00">17.Mar.2010</abbr> // 10:51      </small>
+      <div class="description">
+        <p>As a scanner Snow Leopard detects this printer automatically. I guess I&#39;m going to have to go through this pain again to get it installed on my Macbook Pro.</p>
+<p>At work we have an Epson CX11NF and that installed like a charm without needing any driver disks. OS X just ran off and found the drivers itself. Shame it can&#39;t do the same with this Canon printer &#8230;</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-701">
+      <small class="poster vcard">
+                  <span class="fn">Etienne</span> //
+                <abbr class="dtposted" title="2010-12-03T21:27:42+00:00">03.Dec.2010</abbr> // 21:27      </small>
+      <div class="description">
+        <p>WORKS LIKE A CHARM! THANKS A BUNCH</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-2707">
+      <small class="poster vcard">
+                  <span class="fn">John Bucholtz</span> //
+                <abbr class="dtposted" title="2012-07-11T16:12:27+00:00">11.Jul.2012</abbr> // 16:12      </small>
+      <div class="description">
+        <p>Thank you!  You are much better than Canon Customer Support.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-3866">
+      <small class="poster vcard">
+                  <span class="fn">Greg</span> //
+                <abbr class="dtposted" title="2012-10-28T11:49:14+00:00">28.Oct.2012</abbr> // 11:49      </small>
+      <div class="description">
+        <p>I had to connect with USB again and fire up Canon&#8217;s IJ network tool on my wife&#8217;s laptop to update the wireless networking settings after moving house. Once a year I&#8217;m reminded how retarded the networking software is on this printer.</p>
+<p>Glad this post was useful for others.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4093">
+      <small class="poster vcard">
+                  <span class="fn">Rudi Farkas</span> //
+                <abbr class="dtposted" title="2012-11-29T23:28:32+00:00">29.Nov.2012</abbr> // 23:28      </small>
+      <div class="description">
+        <p>Hi Greg<br />
+Thanks for the hints &#8211; the magic word was CUPS drivers. I had to install them after the upgrade of an old Mac Mini 2007 to OS X 10.6, which made the previous drivers obsolete, and there was no automated help (OS X search for new software did not find anything from Canon).<br />
+Anyway, now the WiFi connection works.<br />
+Yours truly<br />
+@rudifa<br />
+P.S. Snowboarder in St. Albans?! Wow.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4534">
+      <small class="poster vcard">
+                  <span class="fn">Jorgen Jorgensen</span> //
+                <abbr class="dtposted" title="2013-02-01T16:25:12+00:00">01.Feb.2013</abbr> // 16:25      </small>
+      <div class="description">
+        <p>Greg, you are my savior! Took me a long time to find out how to reactivate the printer after installing of the 10.6.8 vs. Both Apple and Canon were useless. Your blog did it. Great and thank you. I would love to send you a thank you card from DK.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-5174">
+      <small class="poster vcard">
+                  <span class="fn">Kathie</span> //
+                <abbr class="dtposted" title="2013-04-25T06:51:40+00:00">25.Apr.2013</abbr> // 06:51      </small>
+      <div class="description">
+        <p>Thank you, thank you, thank you!!!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-6392">
+      <small class="poster vcard">
+                  <span class="fn">J Sims</span> //
+                <abbr class="dtposted" title="2013-09-13T03:02:39+00:00">13.Sep.2013</abbr> // 03:02      </small>
+      <div class="description">
+        <p>Very helpful.  Thank you.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-22049">
+      <small class="poster vcard">
+                  <span class="fn">A Crump</span> //
+                <abbr class="dtposted" title="2014-06-07T06:00:49+00:00">07.Jun.2014</abbr> // 06:00      </small>
+      <div class="description">
+        <p>It worked! Thanks!!</p>
+      </div>
+    </div>
+    	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+</div>
+
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="tag/configure/index.html" rel="tag">configure</a></li><li><a href="tag/printer/index.html" rel="tag">printer</a></li><li><a href="tag/wifi/index.html" rel="tag">wifi</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>

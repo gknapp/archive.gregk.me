@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  mysql bug - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+
+<link rel='prev' title='Using sed to capture C style multi-line comments' href='../../index.html?p=419' />
+<link rel='next' title='Working on a VirtualBox dev server while offline' href='../../index.html?p=583' />
+
+<link rel='canonical' href='../../index.html?p=433' />
+<link rel='shortlink' href='../../index.html?p=433' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="../../index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="../../resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="../../about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="../../resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="../../photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="../../resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="../../software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="../../resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="../../contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-433">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">27</div><div class="month">Apr</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="../../index.html?p=433">MySQL bug</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2010-04-27T12:12:41+00:00">2010</abbr> // 
+                        	<a href="../../category/tech/index.html" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="../../index.html?p=433#comments">0</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p>I can&#8217;t remember the last time I stumbled across a bug in MySQL, however this morning I did.<br />
+<span id="more-433"></span><br />
+Querying the following table to locate entities with more than one title attribute (this is a diagnostic query, not used in the application).</p>
+<pre class="bash">
+CREATE TABLE `entity_attr` (
+  `entity_id` int(11) NOT NULL default '0',
+  `entity_attr_id` int(11) NOT NULL default '0',
+  `seq_no` int(11) NOT NULL default '0',
+  `lang_id` int(11) NOT NULL default '0',
+  `intval` int(11) default NULL,
+  `strval` text,
+  `created` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `import_source_id` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`entity_id`,`entity_attr_id`,`seq_no`,`lang_id`),
+  KEY `entity_attr_id` (`entity_attr_id`,`strval`(10)),
+  KEY `entity_attr_id_2` (`entity_attr_id`,`intval`),
+  KEY `k_entity_id` (`entity_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8</pre>
+<p>The query:</p>
+<pre class="bash">
+&gt; SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 LIMIT 10;
++-----------+-----+
+| entity_id | num |
++-----------+-----+
+|    228896 |   2 | 
+|    246726 |   2 | 
+|    409089 |   2 | 
+|    409091 |   2 | 
+|    409098 |   2 | 
+|    409104 |   2 | 
+|    409105 |   2 | 
+|    409106 |   2 | 
+|    409107 |   2 | 
+|    409108 |   2 | 
++-----------+-----+
+10 rows in set (2.65 sec)</pre>
+<p>OK, so there are occurrences of entities with multiple title attributes, what&#8217;s the most amount of titles a single entity has?</p>
+<pre class="bash">
+&gt; SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 ORDER BY num DESC LIMIT 10;
++-----------+--------+
+| entity_id | num    |
++-----------+--------+
+|    409109 | 525193 | 
++-----------+--------+
+1 row in set (0.93 sec)
+</pre>
+<p>Only one result? Wow, 525k titles! Really?</p>
+<pre class="bash">
+&gt; SELECT COUNT(*) FROM entity_attr WHERE entity_id = 409109 AND entity_attr_id = 10;
++----------+
+| COUNT(*) |
++----------+
+|        1 | 
++----------+
+1 row in set (0.00 sec)</pre>
+<p>No.</p>
+<p>Lets take another look, remove the limit.</p>
+<pre class="bash">
+&gt; SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 ORDER BY num DESC;
++-----------+-----+
+| entity_id | num |
++-----------+-----+
+|    409104 |   2 | 
+...
++-----------+-----+
+107 rows in set (0.00 sec)</pre>
+<p>And if we bring it back.</p>
+<pre class="bash">
+&gt; SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 ORDER BY num DESC LIMIT 107;
++-----------+--------+
+| entity_id | num    |
++-----------+--------+
+|    409109 | 525193 | 
++-----------+--------+
+1 row in set (0.83 sec)
+</pre>
+<p>Looks like <code>LIMIT</code> is causing the issue here. Looks like 5 is a magic <code>LIMIT</code> number too, changing the entity ID in the result:</p>
+<p>Limit 4:</p>
+<pre class="bash">
++-----------+--------+
+| entity_id | num    |
++-----------+--------+
+|    409109 | 525193 | 
++-----------+--------+
+1 row in set (0.83 sec)</pre>
+<p>Limit 5:</p>
+<pre class="bash">
++-----------+--------+
+| entity_id | num    |
++-----------+--------+
+|     55446 | 525193 | 
++-----------+--------+
+1 row in set (0.00 sec)</pre>
+<p>Limit 6:</p>
+<pre class="bash">
++-----------+--------+
+| entity_id | num    |
++-----------+--------+
+|    409109 | 525193 | 
++-----------+--------+
+1 row in set (0.82 sec)
+</pre>
+<p>So how does the query plan change between these statements?</p>
+<pre class="bash">
+&gt; EXPLAIN SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 LIMIT 10;
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+--------+--------------------------+
+| id | select_type | table       | type  | possible_keys                   | key     | key_len | ref  | rows   | Extra                    |
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+--------+--------------------------+
+|  1 | SIMPLE      | entity_attr | index | entity_attr_id,entity_attr_id_2 | PRIMARY | 16      | NULL | 158569 | Using where; Using index | 
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+--------+--------------------------+</pre>
+<p>Using the magic limit of 5:</p>
+<pre class="bash">
+&gt; EXPLAIN SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 LIMIT 5;
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+-------+--------------------------+
+| id | select_type | table       | type  | possible_keys                   | key     | key_len | ref  | rows  | Extra                    |
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+-------+--------------------------+
+|  1 | SIMPLE      | entity_attr | index | entity_attr_id,entity_attr_id_2 | PRIMARY | 16      | NULL | 79221 | Using where; Using index | 
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+-------+--------------------------+</pre>
+<p>Removing the limit (where we get correct results):</p>
+<pre class="bash">
+&gt; EXPLAIN SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1;
++----+-------------+-------------+------+---------------------------------+------------------+---------+-------+--------+----------------------------------------------+
+| id | select_type | table       | type | possible_keys                   | key              | key_len | ref   | rows   | Extra                                        |
++----+-------------+-------------+------+---------------------------------+------------------+---------+-------+--------+----------------------------------------------+
+|  1 | SIMPLE      | entity_attr | ref  | entity_attr_id,entity_attr_id_2 | entity_attr_id_2 | 4       | const | 453654 | Using where; Using temporary; Using filesort | 
++----+-------------+-------------+------+---------------------------------+------------------+---------+-------+--------+----------------------------------------------+</pre>
+<p>Could there be an issue using the primary key? Lets rebuild the indexes on this table.</p>
+<pre class="bash">
+&gt; REPAIR TABLE entity_attr QUICK;
++------------------+--------+----------+----------+
+| Table            | Op     | Msg_type | Msg_text |
++------------------+--------+----------+----------+
+| muco.entity_attr | repair | status   | OK       | 
++------------------+--------+----------+----------+</pre>
+<p>Re-run our query:</p>
+<pre class="bash">
+&gt; SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 ORDER BY num DESC LIMIT 5;
++-----------+--------+
+| entity_id | num    |
++-----------+--------+
+|    409101 | 525193 | 
++-----------+--------+</pre>
+<p>No joy. Lets simplify slightly:</p>
+<pre class="bash">
+&gt; SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 LIMIT 5;
++-----------+-----+
+| entity_id | num |
++-----------+-----+
+|    228896 |   2 | 
+|    246726 |   2 | 
+|    409089 |   2 | 
+|    409091 |   2 | 
+|    409098 |   2 | 
++-----------+-----+
+</pre>
+<p>Looks like we&#8217;re good if we strip the ORDER BY clause. Are we still relying soley on an index to find rows?</p>
+<pre class="bash">
+&gt; EXPLAIN SELECT entity_id, COUNT(*) AS num FROM entity_attr WHERE entity_attr_id = 10 GROUP BY entity_id HAVING num &gt; 1 LIMIT 10;
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+--------+--------------------------+
+| id | select_type | table       | type  | possible_keys                   | key     | key_len | ref  | rows   | Extra                    |
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+--------+--------------------------+
+|  1 | SIMPLE      | entity_attr | index | entity_attr_id,entity_attr_id_2 | PRIMARY | 16      | NULL | 158569 | Using where; Using index | 
++----+-------------+-------------+-------+---------------------------------+---------+---------+------+--------+--------------------------+</pre>
+<p>Yup.</p>
+<p>So a mix of <code>GROUP</code>, <code>HAVING</code>, <code>ORDER BY</code> with <code>LIMIT</code> doesn&#8217;t play well on this version of MySQL.</p>
+<p>This is bug wasn&#8217;t present on our production servers (running 5.0.x). This issue is exhibited from:</p>
+<pre class="bash">mysql Ver 14.14 Distrib 5.1.37, for debian-linux-gnu (i486) using EditLine wrapper
+Server version:	 5.1.37-1ubuntu5.1-log (Ubuntu)</pre>
+<p>I&#8217;ve not tested this on later releases of the 5.1.x branch. I need a machine I can dirty with two MySQL installs and (on Ubuntu) need to compile from source for the latest (at the time of writing) 5.1.46 release.</p>
+<p><b>UPDATE:</b> I installed Ubuntu 10.04 tonight (April 30th) on a VM and tested this query, the problem persists in Lucid Lynx (version <code>5.1.41-3ubuntu12</code>).</p>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=MySQL bug" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+			<p>No comments for this post.</p>
+	 </div>
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="../../tag/bug/index.html" rel="tag">bug</a></li><li><a href="../../tag/karmic/index.html" rel="tag">karmic</a></li><li><a href="../../tag/lucid/index.html" rel="tag">lucid</a></li><li><a href="../../tag/mysql/index.html" rel="tag">mysql</a></li><li><a href="../../tag/ubuntu/index.html" rel="tag">ubuntu</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  so that&#8217;s why i don&#8217;t compile from source &#8230; - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+
+<link rel='prev' title='Last day at Alexander Street Press' href='index.html?p=997' />
+<link rel='next' title='Multi-file search and replace using bash' href='index.html?p=1115' />
+
+<link rel='canonical' href='index.html?p=1015' />
+<link rel='shortlink' href='index.html?p=1015' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-1015">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">21</div><div class="month">May</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="index.html?p=1015">So that&#8217;s why I don&#8217;t compile from source &#8230;</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2011-05-21T12:06:16+00:00">2011</abbr> // 
+                        	<a href="category/linux/index.html" title="View all posts in linux" rel="category tag">linux</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="index.html?p=1015#comments">8</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p>I needed to compile the latest PHP5 from source so I could enable FPM support. The following packages needed installing to successfully complete compilation. <span id="more-1015"></span>My configure line was as follows:</p>
+<pre class="bash">
+'./configure' '--prefix=/etc/php' '--with-config-file-path=/etc/php' '--with-curl' 
+'--with-pear' '--with-gd' '--with-jpeg-dir' '--with-png-dir' '--with-zlib' 
+'--with-xpm-dir' '--with-freetype-dir' '--with-t1lib' '--with-mcrypt' '--with-mhash' 
+'--with-mysql' '--with-mysqli' '--with-pdo-mysql' '--with-openssl' '--with-xmlrpc' 
+'--with-xsl' '--with-bz2' '--with-gettext' '--with-fpm-user=www-data' 
+'--with-fpm-group=www-data' '--enable-fpm' '--enable-exif' '--enable-wddx' 
+'--enable-zip' '--enable-bcmath' '--enable-calendar' '--enable-mbstring' 
+'--enable-soap' '--enable-sockets' '--enable-sqlite-utf8' '--enable-shmop' 
+'--enable-dba' '--enable-sysvmsg' '--enable-sysvsem' '--enable-sysvshm'
+</pre>
+<p>I&#8217;m not sure I even needed all of these extensions but it looked good. More painful was finding out which packages needed installing, to summarise:</p>
+<pre class="bash">
+sudo apt-get install libxml2-dev libbz2-dev libcurl4-gnutls-dev libpng12-dev 
+libjpeg62-dev libxpm-dev libfreetype6-dev libt1-dev libmcrypt-dev libmhash-dev 
+libxslt1-dev
+</pre>
+<p>PHP5 should compile successfully. All the error messages I stumbled across along the way:</p>
+<pre class="bash">
+configure: error: xml2-config not found. Please check your libxml2 installation.
+checking for BZip2 in default path... not found
+configure: error: Please reinstall the BZip2 distribution
+checking for cURL in default path... not found
+configure: error: Please reinstall the libcurl distribution -
+    easy.h should be in <curl-dir>/include/curl/
+configure: error: libjpeg.(a|so) not found.
+configure: error: libXpm.(a|so) not found.
+configure: error: freetype.h not found.
+configure: error: Your t1lib distribution is not installed correctly. Please reinstall it.
+configure: error: mcrypt.h not found. Please reinstall libmcrypt.
+configure: error: xslt-config not found. Please reinstall the libxslt >= 1.1.0 distribution
+</pre>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=So that&#8217;s why I don&#8217;t compile from source &#8230;" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+      <div class="comment hcomment" id="comment-1119">
+      <small class="poster vcard">
+                  <a href="http://aravindavk.in" class="url fn" name="comment-1119" rel="external nofollow">Aravinda</a> //                 <abbr class="dtposted" title="2011-05-30T06:34:44+00:00">30.May.2011</abbr> // 06:34      </small>
+      <div class="description">
+        <p>Use </p>
+<p>sudo apt-get build-dep php5 </p>
+<p>to install all the dependency packages required to build php.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1179">
+      <small class="poster vcard">
+                  <span class="fn">Julian</span> //
+                <abbr class="dtposted" title="2011-07-03T03:02:32+00:00">03.Jul.2011</abbr> // 03:02      </small>
+      <div class="description">
+        <p>That&#8217;s a useful command Aravinda, but have you tried it? On my machine it wanted to install 109 new packages, including lmsensors, fancontrol, a large collection of perl modules and a huge bunch of other stuff that doesn&#8217;t seem useful for PHP.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1266">
+      <small class="poster vcard">
+                  <span class="fn">Greg K</span> //
+                <abbr class="dtposted" title="2011-07-20T21:31:00+00:00">20.Jul.2011</abbr> // 21:31      </small>
+      <div class="description">
+        <p>The irony is I performed this on my Ubuntu VM that I develop on before deploying to this server. Last night I bypassed this compile from source step by upgrading Ubuntu to 10.10 from 10.04 LTS, then I could take the easy route and use the package manager to install PHP-FPM.</p>
+<p>I&#8217;m saving a chunk of memory running nginx with PHP-FPM vs Apache 2. Now if I can port WordPress from MySQL to sqlite3 &#8230;</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1646">
+      <small class="poster vcard">
+                  <span class="fn">RD</span> //
+                <abbr class="dtposted" title="2012-01-27T22:12:08+00:00">27.Jan.2012</abbr> // 22:12      </small>
+      <div class="description">
+        <p>Thanks for saving me a bunch of time &#8212; I got to &#8220;configure: error: Your t1lib distribution is not installed correctly. Please reinstall it.&#8221; when I found that little gem.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1957">
+      <small class="poster vcard">
+                  <a href="http://www.headenergy.co.uk" class="url fn" name="comment-1957" rel="external nofollow">Mark Beeby</a> //                 <abbr class="dtposted" title="2012-05-04T13:21:56+00:00">04.May.2012</abbr> // 13:21      </small>
+      <div class="description">
+        <p>Whilst I wait for my &#8220;make test&#8221; to finish (even a decent EC2 instance takes an age), I thought i&#8217;d say thank you, it&#8217;s blog posts like this that save so much time for everyone else.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4362">
+      <small class="poster vcard">
+                  <span class="fn">Bart McLeod</span> //
+                <abbr class="dtposted" title="2013-01-11T09:26:19+00:00">11.Jan.2013</abbr> // 09:26      </small>
+      <div class="description">
+        <p>Hi, thanks for your post, but hey, everybody says you&#8217;re saving them time and I find my self in a similar position as you, that is, I got to the &#8220;configure: error: Your t1lib distribution is not installed correctly. Please reinstall it.&#8221; part, with no clues on how to solve it. I faced almost every other error you listed and had to upgrade lots of other stuff. What I&#8217;m trying to do is compile php5.4.10 to work with MAMP. They do not yet provide the correct sources, otherwise, it would be easy. The version number of their server components is behind the actual server and so are the php version in the components. So I download the source directly from php.net and compiled all the depencies up the point where t1lib doesn&#8217;t seem to be correct. However, macports can clean and reinstall t1lib without reporting any problems. The error remains. Anyone any clues except installing something pre-built? I know I can install Zend Server for example, but I would like to master this compiling from source karma thing.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-5649">
+      <small class="poster vcard">
+                  <span class="fn">Luis</span> //
+                <abbr class="dtposted" title="2013-06-03T23:34:26+00:00">03.Jun.2013</abbr> // 23:34      </small>
+      <div class="description">
+        <p>sudo apt-get install libt1-dev worked for me Bart</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-6252">
+      <small class="poster vcard">
+                  <span class="fn">Jeff Parsons</span> //
+                <abbr class="dtposted" title="2013-08-09T14:15:08+00:00">09.Aug.2013</abbr> // 14:15      </small>
+      <div class="description">
+        <p>Just ran into some similar issues (building from scratch on MacOSX, so no apt-get help) and thought I&#8217;d pass along the libt1 details I found (and successfully used to build php-fpm from php-5.4.15 sources.</p>
+<p>- Dug up <a href="http://www.t1lib.org/" rel="nofollow">http://www.t1lib.org/</a> through some searches. (Was very annoyed about how obvious that URL was after the fact.)<br />
+- That linked to <a href="ftp://sunsite.unc.edu/pub/Linux/libs/graphics/" rel="nofollow">ftp://sunsite.unc.edu/pub/Linux/libs/graphics/</a> which then had a t1lib-5.1.2.tar.gz available<br />
+- unzip; ./configure;make;make install and all was happy</p>
+      </div>
+    </div>
+    	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+</div>
+
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="tag/compile/index.html" rel="tag">compile</a></li><li><a href="tag/dependencies/index.html" rel="tag">dependencies</a></li><li><a href="tag/php5-3/index.html" rel="tag">php5.3</a></li><li><a href="tag/source/index.html" rel="tag">source</a></li><li><a href="tag/ubuntu/index.html" rel="tag">ubuntu</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>

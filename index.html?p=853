@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  change gitbash home directory - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+
+<link rel='prev' title='Display active git branch in bash prompt' href='index.html?p=751' />
+<link rel='next' title='PHP UK Conference 2011' href='index.html?p=880' />
+
+<link rel='canonical' href='index.html?p=853' />
+<link rel='shortlink' href='index.html?p=853' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-853">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">28</div><div class="month">Feb</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="index.html?p=853">Change gitbash home directory</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2011-02-28T00:15:47+00:00">2011</abbr> // 
+                        	<a href="category/git/index.html" title="View all posts in git" rel="category tag">git</a>, <a href="category/windows/index.html" title="View all posts in windows" rel="category tag">windows</a> // <span class="comment"><a href="index.html?p=853#comments">15</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p>My Macbook had a hardware failure recently and I ended up working on a Windows XP machine briefly. While configuring my development environment, I set up my working directory outside my Windows user profile directory (<code>C:\Documents and Settings\Greg</code>). How did Microsoft ever think &#8216;Document and Settings&#8217; was a good path for user profiles?!<span id="more-853"></span></p>
+<p><img src="http://i.imgur.com/qtKjX.png" alt="System Properties Advanced Tab in Windows XP is where you find the environment variables button" align="right" />I needed to pull my <a href="https://github.com/alexanderstreet">company repository</a> down from Github. <a href="http://code.google.com/p/msysgit/">msysgit</a> was already installed. When starting <code>gitbash</code> to work with git, the default starting directory is <code>%HOMEDRIVE%%HOMEPATH%</code>, this translates to <code>/c/Documents and Settings/Greg</code> and not my working directory <code>/c/greg/workspace/repo</code>. Being a Linux/Mac guy I thought I might be able change my <code>$HOME</code> variable location but you won&#8217;t find a <code>/etc/passwd</code> file in msysgit&#8217;s emulation layer, and it won&#8217;t read <code>.bash_profile</code> or similar file early enough.</p>
+<p>We have to do this the Windows way. Create a new environment variable and update the <code>gitbash</code> shortcut startup directory.</p>
+<p><img src="http://i.imgur.com/RKXsn.png" alt="Change gitbash shortcut properties" align="left" />You can define a new environment variable by right clicking My Computer, select Properties and click the Advanced tab. At the bottom of this tab you&#8217;ll see a &#8216;Environment Variables&#8217; button. Click this and define a new variable, <code>HOME</code>, with the value set to your working directory (in my case <code>c:\greg\workspace\repo</code>).</p>
+<p>Now we can update our gitbash shortcut and use <code>%HOME%</code> to set the start up directory. Right click your gitbash shortcut and click Properties. Change the value of &#8216;Start in:&#8217; field to <code>%HOME%</code>. Click OK.</p>
+<p>Now when you open <code>gitbash</code> you&#8217;ll start in your working directory, no need to <code>cd</code> to it everytime.</p>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=Change gitbash home directory" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+      <div class="comment hcomment" id="comment-1111">
+      <small class="poster vcard">
+                  <span class="fn">David</span> //
+                <abbr class="dtposted" title="2011-05-19T17:55:17+00:00">19.May.2011</abbr> // 17:55      </small>
+      <div class="description">
+        <p>Awesome post. My company&#8217;s group policy had set my %HOMEDRIVE% to a network drive that was not writable.  This allowed my to change it. Thanks.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1163">
+      <small class="poster vcard">
+                  <span class="fn">r_stitt</span> //
+                <abbr class="dtposted" title="2011-06-28T04:52:58+00:00">28.Jun.2011</abbr> // 04:52      </small>
+      <div class="description">
+        <p>Thanks for posting this, but a nice small tweak is to define</p>
+<p>REPOPATH=\My Documents\Repo</p>
+<p>and then update the shortcut to</p>
+<p>%HOMEDRIVE%%HOMEPATH%%REPOPATH%</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1460">
+      <small class="poster vcard">
+                  <span class="fn">mark</span> //
+                <abbr class="dtposted" title="2011-10-18T06:36:37+00:00">18.Oct.2011</abbr> // 06:36      </small>
+      <div class="description">
+        <p>Nice tip.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1522">
+      <small class="poster vcard">
+                  <span class="fn">Nick Wilcox</span> //
+                <abbr class="dtposted" title="2011-11-29T21:33:50+00:00">29.Nov.2011</abbr> // 21:33      </small>
+      <div class="description">
+        <p>very helpful &#8211; was seeing the default path set to an external network drive and this fixed it on the first try.  Thank you</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1652">
+      <small class="poster vcard">
+                  <span class="fn">Wenhui</span> //
+                <abbr class="dtposted" title="2012-01-29T03:59:16+00:00">29.Jan.2012</abbr> // 03:59      </small>
+      <div class="description">
+        <p>Thanks for the information, it works flawlessly.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1712">
+      <small class="poster vcard">
+                  <span class="fn">Eliran Malka</span> //
+                <abbr class="dtposted" title="2012-02-22T20:49:52+00:00">22.Feb.2012</abbr> // 20:49      </small>
+      <div class="description">
+        <p>OK, this may work on the first try, since gitbash will start in the specified path, indeed, but this does not resolve the git root reference.<br />
+next time you execute a command in gitbash, it will fall back to the root.<br />
+having the same case as Nick Wilcox (default path is a mapped network drive), that didn&#8217;t solve my problem.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-2021">
+      <small class="poster vcard">
+                  <span class="fn">WOWBOW</span> //
+                <abbr class="dtposted" title="2012-05-19T15:28:59+00:00">19.May.2012</abbr> // 15:28      </small>
+      <div class="description">
+        <p>lOVE U MY FRIEND .. WORKED LIKE A CHARM</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-2153">
+      <small class="poster vcard">
+                  <span class="fn">Naga</span> //
+                <abbr class="dtposted" title="2012-06-06T15:38:27+00:00">06.Jun.2012</abbr> // 15:38      </small>
+      <div class="description">
+        <p>Thanks for the information it was very helpful. For me %HOME% sounded like a generic variable and there is a chance some other applications may start using it, so I created a variable with name GITHOME instead of HOME. Did not observe any side effects so far!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-2171">
+      <small class="poster vcard">
+                  <span class="fn">FC</span> //
+                <abbr class="dtposted" title="2012-06-09T10:14:47+00:00">09.Jun.2012</abbr> // 10:14      </small>
+      <div class="description">
+        <p>Greg,</p>
+<p>Great post..This got me out a jam when I was hitting &#8220;percent_expand: unknown key %H&#8221; when I was trying to push to a remote repository for the first time with a new project.</p>
+<p>I was using Git Bash on XP</p>
+<p>Thanks man&#8230;</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-2249">
+      <small class="poster vcard">
+                  <span class="fn">rsgracey</span> //
+                <abbr class="dtposted" title="2012-06-15T13:48:28+00:00">15.Jun.2012</abbr> // 13:48      </small>
+      <div class="description">
+        <p>I have been looking for this for two months&#8230;.I feel a giant weight lifted from my shoulders. Thank you, Greg!</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-3316">
+      <small class="poster vcard">
+                  <span class="fn">MatthiasDE</span> //
+                <abbr class="dtposted" title="2012-08-29T18:52:10+00:00">29.Aug.2012</abbr> // 18:52      </small>
+      <div class="description">
+        <p>Thx for this tip. Great!</p>
+<p>I did the dirty way without more environment variables &#8211; for single user modification:<br />
+&#8220;%HOMEDRIVE%%HOMEPATH%\My Documents\Projects Development&#8221;</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4265">
+      <small class="poster vcard">
+                  <span class="fn">Andrew</span> //
+                <abbr class="dtposted" title="2012-12-26T15:34:45+00:00">26.Dec.2012</abbr> // 15:34      </small>
+      <div class="description">
+        <p>Thanks, I was looking to manualy change it in git settings and your solution is so simple and effective :)</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-4352">
+      <small class="poster vcard">
+                  <span class="fn">Dochi</span> //
+                <abbr class="dtposted" title="2013-01-10T21:47:54+00:00">10.Jan.2013</abbr> // 21:47      </small>
+      <div class="description">
+        <p>I made a small Video-Tutorial. The OS is in german, confusing to some, helpful to others ;) </p>
+<p>Hope it helps,  and thanks for this blog entry.<br />
+<a href="http://youtu.be/6KuiUqJZYGI" rel="nofollow">http://youtu.be/6KuiUqJZYGI</a></p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-5298">
+      <small class="poster vcard">
+                  <span class="fn">J</span> //
+                <abbr class="dtposted" title="2013-05-11T05:19:58+00:00">11.May.2013</abbr> // 05:19      </small>
+      <div class="description">
+        <p>I&#8217;m abit of a NooB on how to manage bash profiles on a mac.<br />
+How would i make a $GITHOME variable and set the GITHUB default from $HOME to $ROOT/developer so that when i clone from github.com it puts the repo auto. in the latter?</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-14862">
+      <small class="poster vcard">
+                  <span class="fn">Mark</span> //
+                <abbr class="dtposted" title="2014-04-03T17:43:41+00:00">03.Apr.2014</abbr> // 17:43      </small>
+      <div class="description">
+        <p>This doesn&#8217;t really fix the problem if you type cd you still end up in %USERPROFILE% and not in %HOME%.  A solution would change what Git bash understands to be $HOME</p>
+      </div>
+    </div>
+    	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+</div>
+
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="tag/git/index.html" rel="tag">git</a></li><li><a href="tag/msysgit/index.html" rel="tag">msysgit</a></li><li><a href="tag/vcs/index.html" rel="tag">vcs</a></li><li><a href="tag/windows/index.html" rel="tag">windows</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>

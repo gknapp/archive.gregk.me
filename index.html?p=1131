@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  joel spolsky doesn&#8217;t get tdd (or ood?) - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+
+<link rel='prev' title='PHP &amp; Javascript bank card Luhn algorithm' href='index.html?p=1125' />
+<link rel='next' title='PHPUnit with() method argument matchers' href='index.html?p=1210' />
+
+<link rel='canonical' href='index.html?p=1131' />
+<link rel='shortlink' href='index.html?p=1131' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-1131">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">20</div><div class="month">Aug</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="index.html?p=1131">Joel Spolsky doesn&#8217;t get TDD (or OOD?)</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2011-08-20T17:29:37+00:00">2011</abbr> // 
+                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/rant/index.html" title="View all posts in rant" rel="category tag">rant</a> // <span class="comment"><a href="index.html?p=1131#comments">3</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p>Maybe that end part, <em>doesn&#8217;t get object oriented design</em> is a bit sensationalist. Don&#8217;t get me wrong, I have a lot of respect for Joel. He speaks a lot of sense, <a href="http://www.joelonsoftware.com">his blog</a> and books are testament to that &#8230; I own a few of them.</p>
+<p>I might be a couple of years late on this &#8230; it wasn&#8217;t until I was researching an answer to a <a href="http://programmers.stackexchange.com/questions/2042/who-does-test-first-development">question</a> on the <a href="http://programmers.stackexchange.com">Stack Exchange Programmers site</a> about test driven design that I stumbled across <a href="http://blog.objectmentor.com/articles/2009/01/31/quality-doesnt-matter-that-much-jeff-and-joel">this blog post</a> by Robert Martin.</p>
+<p>So I listened to <a href="http://blog.stackoverflow.com/2009/01/podcast-38">episode 38</a> of the <a href="http://blog.stackoverflow.com/category/podcasts">StackOverflow podcast</a>, and figured Joel might have said the things he did to stir things up a bit, and light a fire of conversation for the podcast. More Googling lead me to <a href="http://www.joelonsoftware.com/items/2009/09/23.html">other</a> <a href="http://www.joelonsoftware.com/items/2007/12/03.html">evidence</a> that he thinks unit testing is a <a href="http://www.joelonsoftware.com/items/2009/01/31.html">time waster</a>.<br />
+<span id="more-1131"></span><br />
+On listening to the follow up podcast, <a href="http://blog.stackoverflow.com/2009/01/podcast-39">episode 39</a>, it hit me that as Joel probably doesn&#8217;t write much code these days, my guess is he&#8217;s <em>never actually done any TDD</em>. Jump to 33:15 in episode 39 and listen for yourself.</p>
+<p>Joel describes one of his products, Copilot, a remote desktop assistance tool. It uses aggressive JPEG compression to work on low bandwidth connections.</p>
+<p>He decides to implement a feature to reduce the compression and improve the image quality. He makes the example that this would basically change an argument to the JPEG library from 10 to 37.</p>
+<p>I&#8217;ve transcribed from 36:45 (apologies for the length but Joel is wordy :) &#8230;</p>
+<blockquote><p>There is no way to actually construct this test in advance of actually running it. Or if you did it would be extremely hard, I mean, it would take a lot of work to write some kind of test, that&#8217;s gonna know what that other machine that you are connecting to, which would have to be some other simulated machine that generated certain simulated experiences, and you&#8217;d have to, I guess, get your own JPEG library, and hope that it&#8217;s the same as the JPEG library that we&#8217;re using, and let it do both kinds of compression.</p>
+<p>It would take way more work to write the test than to write the code. This is, I think, a classic example of YAGNI.</p>
+<p>&#8230; and yet that code is only 10 lines of code, it&#8217;s going to work!</p>
+</blockquote>
+<p>Mr Spolsky can&#8217;t see the wood for the trees here.</p>
+<p>I see this type contradictory statement a lot, where someone can&#8217;t consciously picture the separation of responsibilities in their head. However, they&#8217;ve also said the answer without realising it, unconsciously they know the solution!</p>
+<p>In one breath Joel describes an end-to-end test but then confuses the situation by scoping this test to &#8217;10 lines of code&#8217;. That&#8217;s a unit test, where your class for talking to the JPEG compression library should have <a href="http://misko.hevery.com/2008/08/17/singletons-are-pathological-liars">explicit dependencies</a>. You can then mock the JPEG library and just assert that the <code>lowerCompression()</code> method simply passes 37 instead of 10 as an argument.</p>
+<p>Why assert such simple logic? Well in the bigger picture, you have you a test covering this piece of code, if something in this system breaks, or needs modifying, and your test still passes, you know it&#8217;s not this piece of code at fault. Magnify this to a suite of tests, and depending on your level of code coverage, your test suite can tell you where the fault lies.</p>
+<p>Adding such a test will most likely mean you refactored your code so you <em>could test it!</em> Possibly reducing the responsibilities of the class under test? You needed to mock the JPEG library, so you now pass it into your JPEG library class (an abstraction layer) as a dependency. That reduces coupling.</p>
+<p>You also have a meaningful name for those 5 to 20 lines of code, <code>lowerCompression()</code> to encapsulate this behaviour. It&#8217;s all good. The terminology might sound fancy but when distilled it&#8217;s <em>simple common sense</em>. Why aren&#8217;t more people doing this?!</p>
+<h2>Testing Burden</h2>
+<p>Joel&#8217;s repeat example about the &#8216;testing burden&#8217; is asserting a UI menu in an application has moved, and this breaks 10% of your tests.</p>
+<p>Ten percent of tests breaking tells me either you don&#8217;t have much of a test suite, you&#8217;ve tested the nuts off this UI menu or a portion of your system is too tightly coupled to the UI. If the system is tightly coupled, and much of the business logic is in the UI, the tests have to be driven <em>through the UI</em>.</p>
+<p>If you&#8217;ve used TDD, this scenario is highly <em>unlikely</em> to happen. Here&#8217;s the secret: test driven design promotes <em>layers of separation</em>. Every developer should have heard this phrase. This is programming 101, decoupling your business logic from your presentation layer.</p>
+<p>MVC is more popular today than it&#8217;s ever been. Most developers will tell you the primary benefit is that provides a structure that promotes separating your Model from your View, it even spells it out: Model, View, Controller!</p>
+<p>If you don&#8217;t adhere to this rule, you&#8217;ll have a tough time testing your code (test friction). Or if you do orchestrate a unit test to do it, I guarantee that you&#8217;ll be testing (what should be) multiple layers of your architecture.</p>
+<h2>You Ain&#8217;t Gonna Need It</h2>
+<p>Describing this as <em>&#8216;a classic example of <a href="http://en.wikipedia.org/wiki/You_ain't_gonna_need_it">YAGNI</a>&#8216;</em> is abusing the principle. Joel is using it in the context of &#8216;you don&#8217;t need testing&#8217; because he sees it as unnecessary. Wikipedia describes it as &#8230; </p>
+<blockquote><p>programmers should not add functionality until it is necessary</p>
+</blockquote>
+<p>If anything, this refers to only implementing what is needed to get your test to pass, and no more (i.e. focusing on requirements and code intent). <a href="http://programmers.stackexchange.com/questions/5560/what-are-the-disadvantages-of-test-first-programming">TTD is no silver bullet</a> but it certainly helps amplify a lot of code smells and improve your program design, you just need to try it before you discard it as &#8216;something only architecture astronauts do&#8217;.</p>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=Joel Spolsky doesn&#8217;t get TDD (or OOD?)" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+      <div class="comment hcomment" id="comment-1333">
+      <small class="poster vcard">
+                  <span class="fn">Greg K</span> //
+                <abbr class="dtposted" title="2011-08-20T19:12:38+00:00">20.Aug.2011</abbr> // 19:12      </small>
+      <div class="description">
+        <p>I&#8217;m just listening to <a href="http://blog.stackoverflow.com/2009/02/podcast-41/" rel="nofollow">episode 41</a> where Uncle Bob is the guest. Joel just apologised for comments made in episode 38. Maybe I should have listened to this episode before writing this post :)</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1334">
+      <small class="poster vcard">
+                  <span class="fn">Greg K</span> //
+                <abbr class="dtposted" title="2011-08-20T20:14:35+00:00">20.Aug.2011</abbr> // 20:14      </small>
+      <div class="description">
+        <p>I have to say episode 41 was the best episode I&#8217;ve listened to so far, other than Joel and Jeff talked over their guest too much :)</p>
+<p>I wonder if FogBugz didn&#8217;t have an API, whether the code would have been separated from the view. The way Joel described it, there was a fair amount of coupling, with business logic embedded in the view.</p>
+      </div>
+    </div>
+          <div class="comment hcomment" id="comment-1341">
+      <small class="poster vcard">
+                  <span class="fn">Greg K</span> //
+                <abbr class="dtposted" title="2011-08-22T21:40:00+00:00">22.Aug.2011</abbr> // 21:40      </small>
+      <div class="description">
+        <p>So it turns out I really am the <a href="http://www.threeriversinstitute.org/blog/?p=29" rel="nofollow">last</a> <a href="http://www.suryasuravarapu.com/2009/02/joel-vs-unclebob-relevance-of-tdd-and-solid-principles.html" rel="nofollow">person</a> to <a href="http://alekdavis.blogspot.com/2009/02/to-tdd-or-not-to-tdd.html" rel="nofollow">blog</a> about <a href="http://www.infoq.com/news/2009/02/spolsky-vs-uncle-bob" rel="nofollow">this</a> &#8230;</p>
+      </div>
+    </div>
+    	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+</div>
+
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="tag/joel-on-software/index.html" rel="tag">joel on software</a></li><li><a href="tag/ood/index.html" rel="tag">ood</a></li><li><a href="tag/test-driven-design/index.html" rel="tag">test driven design</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>

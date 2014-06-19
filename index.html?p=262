@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--
+   +MMMMMM.     MMMMM7    MMMMMMMMMMM.    MMMMMM7     MMMMM  MMMMM. .MMMMMMMMMMMMMMM    MMMMMMMMMMMMMMM
+    MMMMMMM.  .MMMMMM   MMMMMMMMMMMMMM8   MMMMMM7     MMMMM  MMMMM   MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM
+     MMMMMMM  MMMMM?   MMMMMMMM7MMMMMMMM. MMMMMM7     MMMMM  MMMMM.  MMMMMM7778MMMMMMM= MMMMMMMMMMMMMMM
+      MMMMMMMMMMMMM.  :MMMMMM7   .MMMMMM. MMMMMM7     MMMMM   .MM,   MMMMMM.   .MMMMMMM MMMMMM
+       MMMMMMMMMMM    MMMMMMM     MMMMMMM MMMMMM7     MMMMM   MM,    MMMMMM.  ..MMMMMMO MMMMMM
+        MMMMMMMMM     MMMMMMO     MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMM
+         MMMMMMM.     MMMMMM$     NMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMMD   MMMMMMMMMMMMM
+         =MMMMMI     .MMMMMMM.    MMMMMMM MMMMMM7     MMMMM          MMMMMMMMMMMMMMI    MMMMMM
+         =MMMMM7      DMMMMMM     MMMMMM$ MMMMMM8    .MMMMM          MMMMMM. ZMMMMMM    MMMMMM
+         =MMMMM7      .MMMMMMM . MMMMMMM  MMMMMMMM .ZMMMMM7          MMMMMM...MMMMMMM   MMMMMMMMMMMMMMM
+         =MMMMM7        MMMMMMMMMMMMMMM.  .MMMMMMMMMMMMMMM           MMMMMM.  .MMMMMMI  MMMMMMMMMMMMMMM
+         =MMMMM7         8MMMMMMMMMMMZ.     MMMMMMMMMMMMM            MMMMMM.  .MMMMMMM  MMMMMMMMMMMMMMM
+         =MMMMM7            $MMMMM?            NMMMMMM.              MMMMMM     MMMMMMM MMMMMMMMMMMMMMM
+
+
+       .=MMMMMMM.     OMMMMMM    .MMMMM       MMMMMMM       MMMMMM    ~MMMMMM
+      MMMMMMMMMMMMM.  8MMMMMM     MMMMM    8MMMMMMMMMMM$    MMMMMM    =MMMMMM
+     MMMMMMMMMMMMMMM. 8MMMMMM     MMMMM   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+   .MMMMMM,  .?MMMMD. 8MMMMMM     MMMMM .MMMMMMM. .MMMMMM.  MMMMMM    =MMMMMM
+   .MMMMMMM.          8MMMMMM     MMMMM  MMMMMM.   .MMMMMM. MMMMMM    =MMMMMM
+    NMMMMMMMMMMMM~..  8MMMMMM     MMMMM :MMMMMM.            MMMMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM  8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+       MMMMMMMMMMMMMD 8MMMMMM     MMMMM 8MMMMMM             MMMMMMMMMMMMMMMMM
+           ,MMMMMMMMM 8MMMMMM     MMMMM  MMMMMM.    MMMMMZ  MMMMMM    =MMMMMM
+   MMMMMM.     MMMMMM 8MMMMMM     MMMMM .MMMMMM,    MMMMMM. MMMMMM    =MMMMMM
+    MMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM8   MMMMMMMMMMMMMMM   MMMMMM    =MMMMMM
+    .MMMMMMMMMMMMMMM   $MMMMMMMMMMMMMM     MMMMMMMMMMMMM.   MMMMMM    =MMMMMM
+      OMMMMMMMMMMM.      MMMMMMMMMMM.       8MMMMMMMMMZ     MMMMMM    ~MMMMMM
+
+
+         MMMMMMM.
+        ?MMMMMMM:
+        MMMMMMMMM
+       :MMMMMMMMM.
+       MMMMMMMMMMM.
+      ,MMMM  MMMMM.
+      MMMMM  MMMMMM
+     ,MMMMI77DMMMMM.
+     MMMMMMMMMMMMMMM
+    .MMMMMMMMMMMMMMM.
+    MMMMM     .MMMMMM
+   .MMMMM      MMMMMM.
+   MMMMM.      OMMMMMM
+
+
+   7MMMMMM      MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMM    MMMMMMMMMMMM8.
+   7MMMMMMM     MMMMM  MMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMO. MMMMMMMMMMMMMMM
+   7MMMMMMMM.   MMMMM  MMMMMMMMMMMMMMM  MMMMMM777MMMMMMMM. MMMMMMMMMMMMMMMM
+   7MMMMMMMMM.  MMMMM  MMMMMM           MMMMMM    .MMMMMM= MMMMMM    MMMMMMM.
+   7MMMMMMMMMM  MMMMM  MMMMMM           MMMMMM.  ..MMMMMM  MMMMMM     MMMMMM.
+   7MMMM MMMMMM.MMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMMMM. MMMMMM     MMMMMMI
+   7MMMMI MMMMMNMMMMM  MMMMMMMMMMMMM    MMMMMMMMMMMMMMM~   MMMMMM     MMMMMMZ
+   7MMMM7  MMMMMMMMMM  MMMMMM           MMMMMMMMMMMMMM     MMMMMM     MMMMMM
+   7MMMM7  =MMMMMMMMM  MMMMMM           MMMMMM  MMMMMMM.   MMMMMM   .MMMMMMM
+   7MMMM7   +MMMMMMMM  MMMMMM           MMMMMM   MMMMMMO   MMMMMM...MMMMMMM.
+   7MMMM7    ?MMMMMMM  MMMMMMMMMMMMMMM  MMMMMM  .DMMMMMM.  MMMMMMMMMMMMMMM.
+   7MMMM7    .IMMMMMM  MMMMMMMMMMMMMMM  MMMMMM    MMMMMMM  MMMMMMMMMMMMMN
+   7MMMM7      $MMMMM  MMMMMMMMMMMMMMM..MMMMMM    .MMMMMM$ MMMMMMMMMI
+
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>  php uk conference 2010 thoughts - greg&#039;s weblog</title>
+<meta name="robots" content="all">
+<meta name="author" content="Greg Knapp">
+<meta name="description" content="Greg's web log about software development, operating systems and other geeky topics">
+<meta name="viewport" content="width=1024px">
+<link rel="me" type="text/html" href="http://www.google.com/profiles/virtual.greg">
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/style.min.130721.css">
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.gregk.me/css/ie6.css">
+<![endif]-->
+<!--[if IE]>
+<style type="text/css" media="screen">
+.post div.content, .post div.comments {
+	display: inline-block;
+}
+
+#query {
+    line-height: 1.6;
+}
+</style>
+<![endif]-->
+
+<script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
+
+<link rel='prev' title='Setting up aliases in Snow Leopard' href='2010/02/25/setting-up-aliases-in-snow-leopard/index.html' />
+<link rel='next' title='Installing PHPUnit on Snow Leopard' href='index.html?p=396' />
+
+<link rel='canonical' href='index.html?p=262' />
+<link rel='shortlink' href='index.html?p=262' />
+</head>
+<body>
+<div id="container_header">
+  <div id="header">
+    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="slug">the more I learn, the less I know</div>
+  </div>
+</div>
+<div id="container_flooring">
+  <div id="flooring">
+    <div id="books">
+      <img src="resources/images/books.png" width="330" height="298" usemap="#map_books" alt="about me" title="">
+      <map name="map_books" id="map_books">
+        <area shape="poly" coords="17,73,81,288,210,248,254,264,321,88,206,37,173,8,140,36" href="about" alt="about me" title="">
+      </map>
+    </div>
+    <div id="camera">
+      <img src="resources/images/camera.png" width="165" height="178" usemap="#map_camera" alt="photography">
+      <map name="map_camera" id="map_camera">
+        <area shape="poly" coords="10,24,34,100,29,133,39,165,157,125,143,77,126,66,111,75,106,92,98,93,93,87,97,75,75,2" href="photography" alt="photography" title="">
+      </map>
+    </div>
+    <div id="macbook">
+      <img src="resources/images/macbook.png" width="373" height="357" usemap="#map_macbook" alt="software projects">
+      <map name="map_macbook" id="map_macbook">
+        <area shape="poly" coords="49,5,55,98,9,279,273,346,318,167,374,86" href="software" alt="software projects" title="">
+      </map>
+    </div>
+    <div id="iphone">
+      <img src="resources/images/iphone.png" width="81" height="107" usemap="#map_iphone" alt="contact me">
+      <map name="map_iphone" id="map_iphone">
+        <area shape="poly" coords="7,83,37,2,79,17,50,99" href="contact" alt="contact me">
+      </map>
+    </div>
+  </div>
+</div>
+<div id="container_stage">
+    <div id="stage">
+        <div id="content" class="hfeed">
+              <div class="post hentry" id="post-262">
+                <div class="heading">
+                    <div class="date">
+                        <div class="day">02</div><div class="month">Mar</div>
+                    </div>
+                    <div class="title">
+                        <h1 class="entry-title"><a href="index.html?p=262">PHP UK Conference 2010 thoughts</a></h1>
+                        <small>
+                        	posted <abbr class="published" title="2010-03-02T09:06:24+00:00">2010</abbr> // 
+                        	<a href="category/conference/index.html" title="View all posts in conference" rel="category tag">conference</a>, <a href="category/tech/index.html" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="index.html?p=262#comments">0</a></span>
+                        </small>
+                    </div>
+                </div>
+                <div class="content entry-content">
+                	<p>On Friday I went to the PHP UK 2010 conference in Islington, London with one of my work colleagues. There were three tracks, so between us we were able to cover most talks of interest. The conference organisers have said they&#8217;ll post the slides of each talk, with sync&#8217;ed audio, online soon. I&#8217;ll link the slides for these talks as they become available.<br />
+<span id="more-262"></span><br />
+From <a href="http://www.phpconference.co.uk/schedule">the schedule</a>, the talks I attended were:</p>
+<ul>
+<li><a href="http://www.slideshare.net/quipo/rdbms-in-the-social-networks-age" target="_blank">RDBMS in the social networks age</a> (<a href="http://joind.in/talk/view/1451" target="_blank">comments</a>)</li>
+<li>Database optimisation (<a href="http://joind.in/talk/view/1453" target="_blank">comments</a>)</li>
+<li><a href="http://www.slideshare.net/G4EGK/couchdb-phpillow-php" target="_blank">PHPillow &#038; CouchDB &#038; PHP</a> (<a href="http://joind.in/talk/view/1465" target="_blank">comments</a>)</li>
+<li><a href="http://www.slideshare.net/IanBarber/in-search-of-integrating-site-search">&#8216;In search of&#8230;&#8217; &#8211; integrating site search</a> (<a href="http://joind.in/talk/view/1462" target="_blank">comments</a>)</li>
+<li>PHP code audits (<a href="http://joind.in/talk/view/1463" target="_blank">comments</a>)</li>
+</ul>
+<p><img src="http://i993.photobucket.com/albums/af54/g4egk/IMG_0500.jpg" alt="PHP UK Conference 2010 talk" align="right" />I forgot to mention it on my feedback form but the WiFi was very good, considering there was an army of nerds hammering on it, it was fast enough and I never lost my connection (disclaimer: I was largely using it from my iPhone).</p>
+<p>For anyone thinking of going next year, be warned, everyone had an iPhone &#8211; I&#8217;m pretty sure they don&#8217;t let you into the conference if you don&#8217;t own one! ;)</p>
+<p>The talks prior to lunch were, time-wise, somewhat sabotaged by the key note speech overrunning.</p>
+<h2>Key note &#8211; the lost art of simplicity</h2>
+<p>Talk rating: 8/10</p>
+<p>Josh Holmes raised some good points in his key note talk.</p>
+<blockquote><p class="first">If you can&#8217;t clearly explain your solution, it&#8217;s probably not worth implementing</p>
+</blockquote>
+<p>Josh said this was particularly important to &#8216;Enterprise&#8217; business, where systems that go live can run for longer than your professional career. It&#8217;s a certainty that other developers will need to maintain or modify your code.</p>
+<p>Gone are the days of a lone programmer writing enterprise software, free to obfuscate the code to keep his maintenance contract. If you&#8217;ve not distilled your solution down to what&#8217;s needed, and nothing more, you&#8217;re guaranteeing someone else extra mental baggage.</p>
+<p><b>Developers have a tendency to over-engineer solutions</b></p>
+<p>Sometimes we try to future proof our designs by adding features we think might be needed but in reality are sometimes <em>never</em> used. Ultimately this means we just wasted our time and added needless complexity.</p>
+<p>Temptation to throw in the kitchen sink is stronger in the early years of your career as a developer, when you&#8217;re eager to use new technologies. Experience teaches you to concentrate on the problem and to solve it with the most suitable tool (at work anyway).</p>
+<p>We strive for this at work, <a href="http://blog.dixo.net/about/">Paul</a> (the CTO) has said on countless occasions <em>do the simpliest thing that works</em>.</p>
+<p><b>Usability testing</b></p>
+<p>This topic highlighted to me that we (developers at ASP) never meet the users of our software. Probably not a surprise in web development. We interact heavily with the editors of the product but never the end users, they sit on the <em>other side</em> of customer support.</p>
+<p>Although we&#8217;re planning to address usability issues by hiring a UX Manager, we do not perform usability testing; watching customers use our software, employing heat maps to see where the mouse pointer moves or use event logging to see which features are popular and which are failing. We do listen to feedback from <a href="http://www.ala.org">ALA</a> conferences and similar.</p>
+<h2>RDBMS in the social networks age</h2>
+<p>Talk rating: 7/10</p>
+<p>This talk heavily contrasted the key note, which talked about simplicity. I couldn&#8217;t help but feel a sense of irony in the first 20 minutes, as this talk involved some complex SQL used to efficiently traverse graphs and trees. It was fortunate I spent some time in November working with Dijkstra&#8217;s algorithm, which provided enough of a refresher to help comprehend the concepts in this talk.</p>
+<p>Although the topic was interesting, having never seen <a href="http://www.infoq.com/news/2007/10/CTE">Common Table Expressions</a> (CTEs) or Window Functions before, the speed at which Lorenzo moved through the slides meant it was demanding trying to keep up. I doubt I was the only one but that didn&#8217;t stop me feeling like a developer sat in a room full of DBAs. I don&#8217;t think it was so much the fault of the speaker, as the morning talks didn&#8217;t get their allotted hour.</p>
+<p>After the talk, I found that MySQL has no support for CTE&#8217;s or Window Functions. Other major DB vendors such as Oracle (with Oracle SQL&#8217;s <code>CONNECT BY</code> syntax for recursive CTEs), MS SQL 2005 and Postgres (since version 8.4) do support them.</p>
+<p>You might be thinking &#8216;so what? I&#8217;ve never needed them&#8217;. If you&#8217;re building any social features into your products, you&#8217;d be surprised how many common features like connections distance to you on Linked in, or friends suggestions on Facebook could / do make use of CTEs.</p>
+<h2>Database Optimisation</h2>
+<p>Talk Rating: 5/10</p>
+<p>This was one of the more disappointing talks I attended. Remo Gaigioni talked about the issues his company encountered when getting their search marketing intelligence tool to scale. The talk covered a lot of topics familiar (you hope) to most developers, using EXPLAIN to optimize queries, moving larger text fields out into separate tables, use of InnoDB to minimize locking, using replication and memcached.</p>
+<p>There were features more specific to Remo&#8217;s application such as job queues that you might not use in your own app. Exact details were omitted but it sounded like his app was also write heavy and struggled with table locks.</p>
+<p>The nuggets of information I got from this talk:</p>
+<p><b>Replication is single threaded</b></p>
+<p>Spec&#8217;ing a beast of a machine to run as a slave doesn&#8217;t make your binary log delay disappear. On a typical 8 core machine, replication is going to run off one of them. That&#8217;s not the say your slaves shouldn&#8217;t be more powerful than your master because they should &#8211; dealing with a share of the reads along with repeating all the writes from the master.</p>
+<p><b>Use a work queue service for job queues (aka right tool for the job)</b></p>
+<p>MySQL really isn&#8217;t the most efficient tool for job queues, sure you can share queue status information across a cluster of machines easily but work queue services like <a href="http://kr.github.com/beanstalkd/">beanstalkd</a> do a better job. Any work you can take away from the database is going to help what remains in it.</p>
+<p>Recommendations from the audience included using <a href="http://mysql-mmm.org">MySQL-MMM</a> in place of HA proxy for load balancing cross-replicating masters, and switching out InnoDB for the <a href="https://launchpad.net/percona-xtradb">Percona</a> storage engine.</p>
+<p>At this point, the day felt like a mental yo-yo coming down from Lorenzo&#8217;s talk to this comparatively high level discussion.</p>
+<h2>PHPillow &#038; CouchDB</h2>
+<p>Talk Rating: 6/10</p>
+<p>Two points I noted from this talk:</p>
+<ul>
+<li>CouchDB has no concept of schemas, consequently changing CouchDB views is less painful than ALTER statements in RDBMS&#8217;.</li>
+<li>Debugging CouchDB&#8217;s Javascript views is a bit problematic at current. Erlang, the functional language it&#8217;s written in, apparently throws ambiguous error messages &#8211; a trait of functional languages.</li>
+</ul>
+<p>So I felt like I&#8217;d come full circle with this talk, from promoting CTEs in a RDBMS to this talk about a NoSQL DB. I was looking forward to this as I&#8217;ve been reading up on CouchDB recently. I&#8217;d read Kore Nordmann&#8217;s <a href="http://arbitracker.org/phpillow/tutorial.html">tutorial on PHPillow</a> before attending this talk as well. I recommend the <a href="http://books.couchdb.org/relax/" target="_blank">free book on the CouchDB site</a> as an insight about how it differs from the traditional RDBMS model.</p>
+<p>Unfortunately a large part of the talk was spent explaining CouchDB, as a consequence we had to pick one of three topics to discuss in more detail: PHPillow, views and Map Reduce or scaling CouchDB.</p>
+<p>The majority vote went to scaling CouchDB. We still had to skip a lot of slides, my estimate is around 30/70 slides due to time constraints. I guess I would have felt like I got more out of this talk if I&#8217;d not read up on the subject beforehand.</p>
+<h2>&#8216;In search of &#8230;&#8217; integrating site search systems</h2>
+<p>Talk Rating: 9/10</p>
+<p>I thought this talk was the best one I attended, and I&#8217;ve a page of frantically scrawled notes as proof. Ian Barber did a great job of introducing the key concepts search engines employ, and how you can tailor your own site&#8217;s search to best Google&#8217;s results. He covered MySQL&#8217;s fulltext search, Sphinx, Swish-e, Lucene, Solr and Xapian (which we use at work). There are PECL extensions available for all of these.</p>
+<p>I thought about using of one of these search engines on this site and possibly combining it with a page ranking algorithm as detailed in the <a href="http://www.manning.com/marmanis/SampleChapter2.pdf">free second chapter</a> (PDF) of Manning&#8217;s <a href="http://www.manning.com/marmanis/">Algorithms of the Intelligent Web</a>.</p>
+<p>Beating Google at it&#8217;s own game on your site is possible because you can employ &#8216;zone weighting&#8217; (see <a href="http://www.slideshare.net/IanBarber/in-search-of-integrating-site-search">slide 44</a>). Google takes a guess using HTML tags, font sizes and other &#8216;one size fits all&#8217; methods.</p>
+<p>Features I thought might benefit products at work; use the spelling correction feature in Xapian and investigate sharding our Xapian databases to reduce the index size to address memory consumption in our ever growing data sets.</p>
+<h2>PHP code audits</h2>
+<p>Talk Rating: 5/10</p>
+<p>I couldn&#8217;t help but have a little déjà vu during this talk. I was reminded of a SecOne course I attended back in 2005, the speaker used un-patched Windows 2000 Server machines to demonstrate exploits. It demonstrated his point but we were 5 years on from it&#8217;s release, with 5 years of security patches having been released. When you tried out these exploits in the Real World™, none of them worked.</p>
+<p>The same thing struct me about the code examples and warnings being presented to us here. Don&#8217;t use <code>eval()</code>, avoid using register globals, be careful of <code>include()</code> injection via register globals. Didn&#8217;t we have this talk back in 2005 as well?</p>
+<p>With the introduction of frameworks in PHP a lot of code shifted from procedural spaghetti code, as seen in these slides, to more structured object orientated code. Most PHP developers know that object orientation promotes encapsulation and information hiding, so you have to go <em>out of your way</em> to write global scope scripts that might fall prey to these issues. If ,for some unholy reason, you&#8217;re still running with register global enabled then you&#8217;re just asking for trouble!</p>
+<p>Writing OO code and making use of <a href="http://php.net/manual/en/language.oop5.autoload.php">autoloading</a> means you can forget about <code>include()</code> &amp; <code>require()</code> statements. Many devs now use a <a href="http://phplens.com/lens/adodb/docs-adodb.htm#execute">database abstraction layer</a> and so don&#8217;t worry about SQL injection, as we utilise bind parameters. I don&#8217;t remember the last time I had to use a global variable. The same goes for <code>eval()</code>, do you remember the last time you used it?</p>
+<p>So unfortunately this talk failed to deliver for me, after coming out of Ian Barber&#8217;s on a high note.</p>
+<h2>Conclusion</h2>
+<p>Would I go to another PHP Conference? Maybe, it really depends on the subject of the talks. Having never been to a PHP community event, part of my motivation to attend was curiosity.</p>
+<p>On at least three occasions talks were cut short. Maybe in future, PHP conferences could have 90 minute slots, or talks that span two slots?</p>
+<p>The the venue was good, location was good, directions were good, the WiFi was good, the free beer was good (thanks Facebook!) there just needs to be a bit of fine tuning with talk timings.</p>
+                    <div class="g-plusone" data-size="medium"></div>
+                        <a href="https://twitter.com/share?via=g4egk&amp;text=PHP UK Conference 2010 thoughts" class="twitter-share-button">Tweet</a>
+                    <br>
+                </div>
+                <div id="previous"></div>
+                <div id="next"></div>
+                
+                
+  <div class="comments">
+    <h3>comments</h3><a name="comments"></a>
+			<p>No comments for this post.</p>
+	 </div>
+
+
+
+              </div>
+        </div>
+    <div id="peripheral">
+      <div id="blog_meta">
+        <div id="search">
+                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
+                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
+                    </form>        </div>
+        
+        <div class="tags">
+          <h4>this post's tags</h4>
+          <ul><li><a href="tag/2010/index.html" rel="tag">2010</a></li><li><a href="tag/conference/index.html" rel="tag">conference</a></li><li><a href="tag/london/index.html" rel="tag">london</a></li><li><a href="tag/php/index.html" rel="tag">php</a></li><li><a href="tag/phpuk2010/index.html" rel="tag">phpuk2010</a></li></ul>        </div>
+      </div>
+      <div id="feeds">
+
+      </div>
+    </div>
+    </div>
+</div>
+<script charset="utf-8" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="container_footer">
+    <div id="footer" class="vcard">
+        <div class="who">
+        	<h4>Who am I?</h4>
+        	<p>My name is Greg &amp; this is my blog.
+        	I'm a software engineer, amateur photographer, dad &amp; fulltime nerd.</p>
+        	<p class="adr">I live in
+        	<a href="http://maps.google.co.uk/maps/place?q=Hitchin" class="locality">Hitchin</a>, <abbr title="United Kingdom" class="country-name">England</abbr>. Once in a blue moon I write my thoughts on this blog.</p>
+        </div>
+        <div class="when">&nbsp;</div>
+        <div class="where">
+            <a href="http://github.com/gknapp" title="view my code" id="github"><span>My github projects</span></a>
+            <a href="http://www.linkedin.com/in/g4egk" title="view my professional profile" id="linkedin" rel="me"><span>My Linkedin profile</span></a>
+        </div>
+        <div class="notice">
+        	<strong>&copy; 2005-2014 <span class="fn n"><span class="given-name">Greg</span> <span class="family-name">Knapp</span></span>.</strong>
+        	Views expressed here are my own and not necessarily those of my employer.
+        </div>
+        <div class="clear"><!-- for iPhone --></div>    </div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1966441-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  !window.jQuery && document.write(
+  	unescape('%3Cscript src="http://static.gregk.me/js/jquery-1.4.2.min.js"%3E%3C/script%3E')
+  )
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://static.gregk.me/js/jquery.ifixpng2.js"></script>
+<script type="text/javascript">
+  $.ifixpng('http://static.gregk.me/images/pixel.gif');
+  $("#books img, #camera img, #macbook img, #iphone img").ifixpng();
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://static.gregk.me/js/min.110426.js"></script>
+</body>
+</html>
