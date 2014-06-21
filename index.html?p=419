@@ -88,11 +88,11 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='IE8 &amp; CSS opacity = fail' href='index.html?p=406' />
-<link rel='next' title='MySQL bug' href='index.html?p=433' />
+<link rel='prev' title='IE8 &amp; CSS opacity = fail' href='/2010/ie8-and-opacity-fails' />
+<link rel='next' title='MySQL bug' href='/2010/bug-in-mysql-5-1-37' />
 
-<link rel='canonical' href='index.html?p=419' />
-<link rel='shortlink' href='index.html?p=419' />
+<link rel='canonical' href='/2010/using-sed-to-parse-c-style-comments' />
+<link rel='shortlink' href='/2010/using-sed-to-parse-c-style-comments' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">17</div><div class="month">Apr</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=419">Using sed to capture C style multi-line comments</a></h1>
+                        <h1 class="entry-title"><a href="/2010/using-sed-to-parse-c-style-comments">Using sed to capture C style multi-line comments</a></h1>
                         <small>
                         	posted <abbr class="published" title="2010-04-17T15:26:02+00:00">2010</abbr> // 
-                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a> // <span class="comment"><a href="index.html?p=419#comments">0</a></span>
+                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a> // <span class="comment"><a href="/2010/using-sed-to-parse-c-style-comments#comments">0</a></span>
                         </small>
                     </div>
                 </div>

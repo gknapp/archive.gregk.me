@@ -88,11 +88,11 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Joel Spolsky doesn&#8217;t get TDD (or OOD?)' href='index.html?p=1131' />
-<link rel='next' title='PHPUnit command line code coverage summary' href='index.html?p=1130' />
+<link rel='prev' title='Joel Spolsky doesn&#8217;t get TDD (or OOD?)' href='/2011/joel-spolsky-doesnt-get-tdd-or-ood' />
+<link rel='next' title='PHPUnit command line code coverage summary' href='/2011/phpunit-command-line-code-coverage-summary' />
 
-<link rel='canonical' href='index.html?p=1210' />
-<link rel='shortlink' href='index.html?p=1210' />
+<link rel='canonical' href='/2011/phpunit-with-method-argument-matchers' />
+<link rel='shortlink' href='/2011/phpunit-with-method-argument-matchers' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">25</div><div class="month">Aug</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=1210">PHPUnit with() method argument matchers</a></h1>
+                        <h1 class="entry-title"><a href="/2011/phpunit-with-method-argument-matchers">PHPUnit with() method argument matchers</a></h1>
                         <small>
                         	posted <abbr class="published" title="2011-08-25T22:08:05+00:00">2011</abbr> // 
-                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a>, <a href="category/testing/index.html" title="View all posts in testing" rel="category tag">testing</a> // <span class="comment"><a href="index.html?p=1210#comments">5</a></span>
+                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a>, <a href="category/testing/index.html" title="View all posts in testing" rel="category tag">testing</a> // <span class="comment"><a href="/2011/phpunit-with-method-argument-matchers#comments">5</a></span>
                         </small>
                     </div>
                 </div>

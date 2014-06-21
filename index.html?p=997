@@ -88,11 +88,11 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Installing PDO sqlite3 support on Ubuntu' href='index.html?p=983' />
-<link rel='next' title='So that&#8217;s why I don&#8217;t compile from source &#8230;' href='index.html?p=1015' />
+<link rel='prev' title='Installing PDO sqlite3 support on Ubuntu' href='/2011/installing-pdo-sqlite3-support-on-ubuntu' />
+<link rel='next' title='So that&#8217;s why I don&#8217;t compile from source &#8230;' href='/2011/so-thats-why-i-dont-compile-from-source' />
 
-<link rel='canonical' href='index.html?p=997' />
-<link rel='shortlink' href='index.html?p=997' />
+<link rel='canonical' href='/2011/last-day-asp' />
+<link rel='shortlink' href='/2011/last-day-asp' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">30</div><div class="month">Apr</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=997">Last day at Alexander Street Press</a></h1>
+                        <h1 class="entry-title"><a href="/2011/last-day-asp">Last day at Alexander Street Press</a></h1>
                         <small>
                         	posted <abbr class="published" title="2011-04-30T14:14:11+00:00">2011</abbr> // 
-                        	<a href="category/work/index.html" title="View all posts in work" rel="category tag">work</a> // <span class="comment"><a href="index.html?p=997#comments">0</a></span>
+                        	<a href="category/work/index.html" title="View all posts in work" rel="category tag">work</a> // <span class="comment"><a href="/2011/last-day-asp#comments">0</a></span>
                         </small>
                     </div>
                 </div>

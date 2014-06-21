@@ -89,10 +89,10 @@
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
 <link rel='prev' title='Display active git branch in bash prompt' href='index.html?p=751' />
-<link rel='next' title='PHP UK Conference 2011' href='index.html?p=880' />
+<link rel='next' title='PHP UK Conference 2011' href='/2011/php-uk-conference-2011' />
 
-<link rel='canonical' href='index.html?p=853' />
-<link rel='shortlink' href='index.html?p=853' />
+<link rel='canonical' href='/2011/change-gitbash-home-directory' />
+<link rel='shortlink' href='/2011/change-gitbash-home-directory' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">28</div><div class="month">Feb</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=853">Change gitbash home directory</a></h1>
+                        <h1 class="entry-title"><a href="/2011/change-gitbash-home-directory">Change gitbash home directory</a></h1>
                         <small>
                         	posted <abbr class="published" title="2011-02-28T00:15:47+00:00">2011</abbr> // 
-                        	<a href="category/git/index.html" title="View all posts in git" rel="category tag">git</a>, <a href="category/windows/index.html" title="View all posts in windows" rel="category tag">windows</a> // <span class="comment"><a href="index.html?p=853#comments">15</a></span>
+                        	<a href="category/git/index.html" title="View all posts in git" rel="category tag">git</a>, <a href="category/windows/index.html" title="View all posts in windows" rel="category tag">windows</a> // <span class="comment"><a href="/2011/change-gitbash-home-directory#comments">15</a></span>
                         </small>
                     </div>
                 </div>

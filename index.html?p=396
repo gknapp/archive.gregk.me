@@ -88,11 +88,11 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='PHP UK Conference 2010 thoughts' href='index.html?p=262' />
-<link rel='next' title='IE8 &amp; CSS opacity = fail' href='index.html?p=406' />
+<link rel='prev' title='PHP UK Conference 2010 thoughts' href='/2010/php-uk-conference-2010-thoughts' />
+<link rel='next' title='IE8 &amp; CSS opacity = fail' href='/2010/ie8-and-opacity-fails' />
 
-<link rel='canonical' href='index.html?p=396' />
-<link rel='shortlink' href='index.html?p=396' />
+<link rel='canonical' href='/2010/installing-phpunit-on-snow-leopard' />
+<link rel='shortlink' href='/2010/installing-phpunit-on-snow-leopard' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">27</div><div class="month">Mar</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=396">Installing PHPUnit on Snow Leopard</a></h1>
+                        <h1 class="entry-title"><a href="/2010/installing-phpunit-on-snow-leopard">Installing PHPUnit on Snow Leopard</a></h1>
                         <small>
                         	posted <abbr class="published" title="2010-03-27T19:26:32+00:00">2010</abbr> // 
-                        	<a href="category/osx/index.html" title="View all posts in osx" rel="category tag">osx</a> // <span class="comment"><a href="index.html?p=396#comments">5</a></span>
+                        	<a href="category/osx/index.html" title="View all posts in osx" rel="category tag">osx</a> // <span class="comment"><a href="/2010/installing-phpunit-on-snow-leopard#comments">5</a></span>
                         </small>
                     </div>
                 </div>

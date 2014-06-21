@@ -88,11 +88,11 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Javascript sub string nuances' href='index.html?p=86' />
-<link rel='next' title='Changing user home directory under Mac OS X' href='index.html?p=151' />
+<link rel='prev' title='Javascript sub string nuances' href='/2009/javascript-sub-string-nuances' />
+<link rel='next' title='Changing user home directory under Mac OS X' href='/2010/change-user-home-directory-under-mac-os-x' />
 
-<link rel='canonical' href='index.html?p=92' />
-<link rel='shortlink' href='index.html?p=92' />
+<link rel='canonical' href='/2010/javascript-indexof-string-vs-array' />
+<link rel='shortlink' href='/2010/javascript-indexof-string-vs-array' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">06</div><div class="month">Jan</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=92">Javascript indexOf &#8211; String vs Array</a></h1>
+                        <h1 class="entry-title"><a href="/2010/javascript-indexof-string-vs-array">Javascript indexOf &#8211; String vs Array</a></h1>
                         <small>
                         	posted <abbr class="published" title="2010-01-06T17:10:34+00:00">2010</abbr> // 
-                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a> // <span class="comment"><a href="index.html?p=92#comments">0</a></span>
+                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a> // <span class="comment"><a href="/2010/javascript-indexof-string-vs-array#comments">0</a></span>
                         </small>
                     </div>
                 </div>

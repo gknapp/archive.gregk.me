@@ -88,11 +88,11 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Multi-file search and replace using bash' href='index.html?p=1115' />
-<link rel='next' title='Joel Spolsky doesn&#8217;t get TDD (or OOD?)' href='index.html?p=1131' />
+<link rel='prev' title='Multi-file search and replace using bash' href='/2011/multi-file-search-and-replace-using-bash' />
+<link rel='next' title='Joel Spolsky doesn&#8217;t get TDD (or OOD?)' href='/2011/joel-spolsky-doesnt-get-tdd-or-ood' />
 
-<link rel='canonical' href='index.html?p=1125' />
-<link rel='shortlink' href='index.html?p=1125' />
+<link rel='canonical' href='/2011/php-implementation-of-bank-card-luhn-algorithm' />
+<link rel='shortlink' href='/2011/php-implementation-of-bank-card-luhn-algorithm' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">15</div><div class="month">Aug</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=1125">PHP &#038; Javascript bank card Luhn algorithm</a></h1>
+                        <h1 class="entry-title"><a href="/2011/php-implementation-of-bank-card-luhn-algorithm">PHP &#038; Javascript bank card Luhn algorithm</a></h1>
                         <small>
                         	posted <abbr class="published" title="2011-08-15T14:23:26+00:00">2011</abbr> // 
-                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="index.html?p=1125#comments">0</a></span>
+                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="/2011/php-implementation-of-bank-card-luhn-algorithm#comments">0</a></span>
                         </small>
                     </div>
                 </div>
