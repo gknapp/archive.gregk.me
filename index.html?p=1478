@@ -88,11 +88,11 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='PHP UK Conference 2012' href='index.html?p=1472' />
-<link rel='next' title='Migrating from iOS to Android' href='index.html?p=1487' />
+<link rel='prev' title='PHP UK Conference 2012' href='/2012/php-uk-conference-2012' />
+<link rel='next' title='Migrating from iOS to Android' href='/2012/migrating-from-ios-to-android' />
 
-<link rel='canonical' href='index.html?p=1478' />
-<link rel='shortlink' href='index.html?p=1478' />
+<link rel='canonical' href='/2012/should-static-methods-be-removed-from-php' />
+<link rel='shortlink' href='/2012/should-static-methods-be-removed-from-php' />
 </head>
 <body>
 <div id="container_header">
@@ -138,10 +138,10 @@
                         <div class="day">10</div><div class="month">Mar</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=1478">Should statics be removed from PHP?</a></h1>
+                        <h1 class="entry-title"><a href="/2012/should-static-methods-be-removed-from-php">Should statics be removed from PHP?</a></h1>
                         <small>
                         	posted <abbr class="published" title="2012-03-10T00:23:39+00:00">2012</abbr> // 
-                        	<a href="category/code/java/index.html" title="View all posts in java" rel="category tag">java</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="index.html?p=1478#comments">1</a></span>
+                        	<a href="category/code/java/index.html" title="View all posts in java" rel="category tag">java</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="/2012/should-static-methods-be-removed-from-php#comments">1</a></span>
                         </small>
                     </div>
                 </div>

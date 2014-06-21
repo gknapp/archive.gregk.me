@@ -88,10 +88,10 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Hidden Value' href='index.html?p=1711' />
+<link rel='prev' title='Hidden Value' href='/2013/hidden-value' />
 
-<link rel='canonical' href='index.html?p=1777' />
-<link rel='shortlink' href='index.html?p=1777' />
+<link rel='canonical' href='/2014/heartbleed' />
+<link rel='shortlink' href='/2014/heartbleed' />
 </head>
 <body>
 <div id="container_header">
@@ -137,10 +137,10 @@
                         <div class="day">17</div><div class="month">Apr</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=1777">Heartbleed = digital spring clean</a></h1>
+                        <h1 class="entry-title"><a href="/2014/heartbleed">Heartbleed = digital spring clean</a></h1>
                         <small>
                         	posted <abbr class="published" title="2014-04-17T23:59:13+00:00">2014</abbr> // 
-                        	<a href="category/uncategorized/index.html" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> // <span class="comment"><a href="index.html?p=1777#comments">0</a></span>
+                        	<a href="category/uncategorized/index.html" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> // <span class="comment"><a href="/2014/heartbleed#comments">0</a></span>
                         </small>
                     </div>
                 </div>
