@@ -88,16 +88,16 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Agile and the Google way' href='index.html?p=36' />
-<link rel='next' title='Design Patterns represent a weakness' href='index.html?p=38' />
+<link rel='prev' title='Agile and the Google way' href='/2006/agile-and-the-google-way' />
+<link rel='next' title='Design Patterns represent a weakness' href='/2006/design-patterns-represent-a-weakness' />
 
-<link rel='canonical' href='index.html?p=37' />
-<link rel='shortlink' href='index.html?p=37' />
+<link rel='canonical' href='/2006/review-practices-of-an-agile-developer' />
+<link rel='shortlink' href='/2006/review-practices-of-an-agile-developer' />
 </head>
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -138,10 +138,10 @@
                         <div class="day">30</div><div class="month">Sep</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=37">Review: Practices of an Agile Developer</a></h1>
+                        <h1 class="entry-title"><a href="/2006/review-practices-of-an-agile-developer">Review: Practices of an Agile Developer</a></h1>
                         <small>
                         	posted <abbr class="published" title="2006-09-30T17:10:11+00:00">2006</abbr> // 
-                        	<a href="category/book-review/index.html" title="View all posts in book review" rel="category tag">book review</a>, <a href="category/tech/index.html" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="index.html?p=37#comments">0</a></span>
+                        	<a href="category/book-review" title="View all posts in book review" rel="category tag">book review</a>, <a href="category/tech" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="/2006/review-practices-of-an-agile-developer#comments">0</a></span>
                         </small>
                     </div>
                 </div>

@@ -97,7 +97,7 @@
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -141,7 +141,7 @@
                         <h1 class="entry-title"><a href="/2011/change-gitbash-home-directory">Change gitbash home directory</a></h1>
                         <small>
                         	posted <abbr class="published" title="2011-02-28T00:15:47+00:00">2011</abbr> // 
-                        	<a href="category/git/index.html" title="View all posts in git" rel="category tag">git</a>, <a href="category/windows/index.html" title="View all posts in windows" rel="category tag">windows</a> // <span class="comment"><a href="/2011/change-gitbash-home-directory#comments">15</a></span>
+                        	<a href="category/git" title="View all posts in git" rel="category tag">git</a>, <a href="category/windows" title="View all posts in windows" rel="category tag">windows</a> // <span class="comment"><a href="/2011/change-gitbash-home-directory#comments">15</a></span>
                         </small>
                     </div>
                 </div>

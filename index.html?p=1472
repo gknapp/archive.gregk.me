@@ -97,7 +97,7 @@
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -141,7 +141,7 @@
                         <h1 class="entry-title"><a href="/2012/php-uk-conference-2012">PHP UK Conference 2012</a></h1>
                         <small>
                         	posted <abbr class="published" title="2012-02-26T22:58:27+00:00">2012</abbr> // 
-                        	<a href="category/conference/index.html" title="View all posts in conference" rel="category tag">conference</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="/2012/php-uk-conference-2012#comments">0</a></span>
+                        	<a href="category/conference" title="View all posts in conference" rel="category tag">conference</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="/2012/php-uk-conference-2012#comments">0</a></span>
                         </small>
                     </div>
                 </div>

@@ -88,16 +88,16 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Time for an upgrade' href='index.html?p=58' />
-<link rel='next' title='MySQL Warnings' href='index.html?p=63' />
+<link rel='prev' title='Time for an upgrade' href='/2007/time-for-an-upgrade' />
+<link rel='next' title='MySQL Warnings' href='/2007/mysql-warnings' />
 
-<link rel='canonical' href='index.html?p=60' />
-<link rel='shortlink' href='index.html?p=60' />
+<link rel='canonical' href='/2007/bash-script-woes' />
+<link rel='shortlink' href='/2007/bash-script-woes' />
 </head>
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -138,10 +138,10 @@
                         <div class="day">28</div><div class="month">May</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=60">Bash script woes</a></h1>
+                        <h1 class="entry-title"><a href="/2007/bash-script-woes">Bash script woes</a></h1>
                         <small>
                         	posted <abbr class="published" title="2007-05-28T19:00:45+00:00">2007</abbr> // 
-                        	<a href="category/linux/index.html" title="View all posts in linux" rel="category tag">linux</a> // <span class="comment"><a href="index.html?p=60#comments">0</a></span>
+                        	<a href="category/linux" title="View all posts in linux" rel="category tag">linux</a> // <span class="comment"><a href="/2007/bash-script-woes#comments">0</a></span>
                         </small>
                     </div>
                 </div>

@@ -141,7 +141,7 @@
                         <h1 class="entry-title"><a href="/2010/ssh-to-machines-with-the-same-ip">SSH&#8217;ing to different machines with the same IP</a></h1>
                         <small>
                         	posted <abbr class="published" title="2010-02-14T16:27:30+00:00">2010</abbr> // 
-                        	<a href="/category/tech/index.html" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="/2010/ssh-to-machines-with-the-same-ip#comments">1</a></span>
+                        	<a href="/category/tech" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="/2010/ssh-to-machines-with-the-same-ip#comments">1</a></span>
                         </small>
                     </div>
                 </div>
@@ -159,7 +159,7 @@ When you SSH to a machine for the first time, you&#8217;re prompted to save the 
 <p><em>I only recommend this for machines on your LAN / inside your DMZ, and not across the public internet.</em></p>
 <p>SSH always resolves hostnames to an IP and complains if two keys for the same IP address exist in your <code>known_hosts</code>. To surpress this you can use the following arguments:</p>
 <pre class="bash">$ ssh -o "StrictHostKeyChecking=no" -q hostname</pre>
-<p>That&#8217;s quite a handful to type, you can <a href="../02/25/setting-up-aliases-in-snow-leopard/index.html">alias this command</a> in bash to save your fingers some work.</p>
+<p>That&#8217;s quite a handful to type, you can <a href="../02/25/setting-up-aliases-in-snow-leopard">alias this command</a> in bash to save your fingers some work.</p>
 <pre class="bash">$ alias sshq="ssh -o 'StrictHostKeyChecking=no' -q"
 $ sshq hostname</pre>
 <p><b>Method Two &#8211; temporarily ignore your known_hosts</b><br />

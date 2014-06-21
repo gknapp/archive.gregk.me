@@ -88,16 +88,16 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='MySQL Warnings' href='index.html?p=63' />
-<link rel='next' title='Mozilla Firefox and Thunderbird Ubuntu Maximized Issue' href='index.html?p=67' />
+<link rel='prev' title='MySQL Warnings' href='/2007/mysql-warnings' />
+<link rel='next' title='Mozilla Firefox and Thunderbird Ubuntu Maximized Issue' href='/2008/mozilla-firefox-and-thunderbird-ubuntu-maximized-issue' />
 
-<link rel='canonical' href='index.html?p=64' />
-<link rel='shortlink' href='index.html?p=64' />
+<link rel='canonical' href='/2007/windows-vista-uac' />
+<link rel='shortlink' href='/2007/windows-vista-uac' />
 </head>
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -138,16 +138,16 @@
                         <div class="day">19</div><div class="month">Aug</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=64">Windows Vista UAC</a></h1>
+                        <h1 class="entry-title"><a href="/2007/windows-vista-uac">Windows Vista UAC</a></h1>
                         <small>
                         	posted <abbr class="published" title="2007-08-19T23:10:32+00:00">2007</abbr> // 
-                        	<a href="category/windows/index.html" title="View all posts in windows" rel="category tag">windows</a> // <span class="comment"><a href="index.html?p=64#comments">1</a></span>
+                        	<a href="category/windows" title="View all posts in windows" rel="category tag">windows</a> // <span class="comment"><a href="/2007/windows-vista-uac#comments">1</a></span>
                         </small>
                     </div>
                 </div>
                 <div class="content entry-content">
                 	<p>Well so much for getting a Sony Viao. I bit the bullet and bought a new Santa Rosa 15&#8243; Macbook Pro in the end. After a patient 18 day wait between ordering and delivery it finally arrived last Friday.</p>
-<p>As I&#8217;ve mentioned previously, <a href="index.html?p=43">I&#8217;m no fan of OSX</a> so I also picked up a copy of Windows Vista. For the 48 hours I&#8217;ve used Vista it doesn&#8217;t seem to be too  different. It does feel like there&#8217;s now an additional click to get everywhere, a lot of things have been moved around (but in a methodical manner).<br />
+<p>As I&#8217;ve mentioned previously, <a href="/2006/my-first-week-as-a-mac-user">I&#8217;m no fan of OSX</a> so I also picked up a copy of Windows Vista. For the 48 hours I&#8217;ve used Vista it doesn&#8217;t seem to be too  different. It does feel like there&#8217;s now an additional click to get everywhere, a lot of things have been moved around (but in a methodical manner).<br />
 <span id="more-64"></span><br />
 A lot of the nerdy stuff has been hidden, <em>Add Hardware</em> is not an easy spot unless you switch to classic view in Control Panel. Simple things like disk defragmenter now has no graphic display on it&#8217;s fragmentation. It feels as though MS has swept this stuff under the rug so the focus on productivity instead of maintaining the OS, which is fine but I imagine for &#8220;Power Users&#8221; this is annoying.</p>
 <p>I digress, what I wanted to mention in this post was an issue I&#8217;ve had with Vista&#8217;s User Account Control (UAC) and running Eclipse. Each time I started Eclipse, Vista would prompt me with a &#8220;Open File &#8211; Security Warning&#8221;, informing me the program I am executing has an <em>Unknown Publisher</em>. Despite unchecking the &#8216;Always ask me about running this file&#8217; option, it would repeatedly do so.</p>

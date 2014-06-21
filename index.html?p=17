@@ -88,16 +88,16 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='MySQL 5.0 not so production ready?' href='index.html?p=15' />
-<link rel='next' title='To be or not to be a Zend Certified Engineer?' href='index.html?p=19' />
+<link rel='prev' title='MySQL 5.0 not so production ready?' href='/2006/mysql-50-not-so-production-ready' />
+<link rel='next' title='To be or not to be a Zend Certified Engineer?' href='/2006/to-become-a-zce-or-not-to-become-a-zce' />
 
-<link rel='canonical' href='index.html?p=17' />
-<link rel='shortlink' href='index.html?p=17' />
+<link rel='canonical' href='/2006/upgrading-from-mysql-323-to-50' />
+<link rel='shortlink' href='/2006/upgrading-from-mysql-323-to-50' />
 </head>
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -138,10 +138,10 @@
                         <div class="day">10</div><div class="month">Jun</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=17">Upgrading from MySQL 3.23 to 5.0</a></h1>
+                        <h1 class="entry-title"><a href="/2006/upgrading-from-mysql-323-to-50">Upgrading from MySQL 3.23 to 5.0</a></h1>
                         <small>
                         	posted <abbr class="published" title="2006-06-10T19:40:04+00:00">2006</abbr> // 
-                        	<a href="category/mysql/index.html" title="View all posts in mysql" rel="category tag">mysql</a> // <span class="comment"><a href="index.html?p=17#comments">0</a></span>
+                        	<a href="category/mysql" title="View all posts in mysql" rel="category tag">mysql</a> // <span class="comment"><a href="/2006/upgrading-from-mysql-323-to-50#comments">0</a></span>
                         </small>
                     </div>
                 </div>

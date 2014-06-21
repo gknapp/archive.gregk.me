@@ -88,16 +88,16 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Java impressions' href='index.html?p=25' />
-<link rel='next' title='Groovy is what it says on the tin' href='index.html?p=54' />
+<link rel='prev' title='Java impressions' href='/2006/java-impressions' />
+<link rel='next' title='Groovy is what it says on the tin' href='/2007/groovy-is-what-it-says-on-the-tin' />
 
-<link rel='canonical' href='index.html?p=49' />
-<link rel='shortlink' href='index.html?p=49' />
+<link rel='canonical' href='/2006/the-biggest-bottleneck-developer-time-not-double-quotes' />
+<link rel='shortlink' href='/2006/the-biggest-bottleneck-developer-time-not-double-quotes' />
 </head>
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -138,10 +138,10 @@
                         <div class="day">02</div><div class="month">Dec</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=49">The biggest bottleneck: developer time, not double quotes</a></h1>
+                        <h1 class="entry-title"><a href="/2006/the-biggest-bottleneck-developer-time-not-double-quotes">The biggest bottleneck: developer time, not double quotes</a></h1>
                         <small>
                         	posted <abbr class="published" title="2006-12-02T23:01:40+00:00">2006</abbr> // 
-                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="index.html?p=49#comments">0</a></span>
+                        	<a href="category/code" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a> // <span class="comment"><a href="/2006/the-biggest-bottleneck-developer-time-not-double-quotes#comments">0</a></span>
                         </small>
                     </div>
                 </div>

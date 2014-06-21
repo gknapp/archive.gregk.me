@@ -97,7 +97,7 @@
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -141,7 +141,7 @@
                         <h1 class="entry-title"><a href="/2010/change-user-home-directory-under-mac-os-x">Changing user home directory under Mac OS X</a></h1>
                         <small>
                         	posted <abbr class="published" title="2010-01-31T13:58:46+00:00">2010</abbr> // 
-                        	<a href="category/osx/index.html" title="View all posts in osx" rel="category tag">osx</a> // <span class="comment"><a href="/2010/change-user-home-directory-under-mac-os-x#comments">3</a></span>
+                        	<a href="category/osx" title="View all posts in osx" rel="category tag">osx</a> // <span class="comment"><a href="/2010/change-user-home-directory-under-mac-os-x#comments">3</a></span>
                         </small>
                     </div>
                 </div>

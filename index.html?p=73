@@ -97,7 +97,7 @@
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -141,7 +141,7 @@
                         <h1 class="entry-title"><a href="/2009/installing-pear-spreadsheet_excel_writer">Installing PEAR Spreadsheet_Excel_Writer</a></h1>
                         <small>
                         	posted <abbr class="published" title="2009-05-16T07:48:53+00:00">2009</abbr> // 
-                        	<a href="category/tech/index.html" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="/2009/installing-pear-spreadsheet_excel_writer#comments">4</a></span>
+                        	<a href="category/tech" title="View all posts in tech" rel="category tag">tech</a> // <span class="comment"><a href="/2009/installing-pear-spreadsheet_excel_writer#comments">4</a></span>
                         </small>
                     </div>
                 </div>

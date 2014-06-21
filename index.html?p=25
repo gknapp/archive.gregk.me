@@ -88,16 +88,16 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Tackling Concurrency' href='index.html?p=46' />
-<link rel='next' title='The biggest bottleneck: developer time, not double quotes' href='index.html?p=49' />
+<link rel='prev' title='Tackling Concurrency' href='/2006/tackling-concurrency' />
+<link rel='next' title='The biggest bottleneck: developer time, not double quotes' href='/2006/the-biggest-bottleneck-developer-time-not-double-quotes' />
 
-<link rel='canonical' href='index.html?p=25' />
-<link rel='shortlink' href='index.html?p=25' />
+<link rel='canonical' href='/2006/java-impressions' />
+<link rel='shortlink' href='/2006/java-impressions' />
 </head>
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -138,10 +138,10 @@
                         <div class="day">25</div><div class="month">Nov</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=25">Java impressions</a></h1>
+                        <h1 class="entry-title"><a href="/2006/java-impressions">Java impressions</a></h1>
                         <small>
                         	posted <abbr class="published" title="2006-11-25T15:43:23+00:00">2006</abbr> // 
-                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/java/index.html" title="View all posts in java" rel="category tag">java</a> // <span class="comment"><a href="index.html?p=25#comments">0</a></span>
+                        	<a href="category/code" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/java/index.html" title="View all posts in java" rel="category tag">java</a> // <span class="comment"><a href="/2006/java-impressions#comments">0</a></span>
                         </small>
                     </div>
                 </div>

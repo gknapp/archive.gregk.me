@@ -88,16 +88,16 @@
 
 <script type='text/javascript' src='http://archive.gregk.me/wp-includes/js/comment-reply.min.js?ver=3.8.3'></script>
 
-<link rel='prev' title='Goodbye Fedora, Hello Slackware' href='index.html?p=14' />
-<link rel='next' title='Upgrading from MySQL 3.23 to 5.0' href='index.html?p=17' />
+<link rel='prev' title='Goodbye Fedora, Hello Slackware' href='/2006/goodbye-fedora-hello-slackware' />
+<link rel='next' title='Upgrading from MySQL 3.23 to 5.0' href='/2006/upgrading-from-mysql-323-to-50' />
 
-<link rel='canonical' href='index.html?p=15' />
-<link rel='shortlink' href='index.html?p=15' />
+<link rel='canonical' href='/2006/mysql-50-not-so-production-ready' />
+<link rel='shortlink' href='/2006/mysql-50-not-so-production-ready' />
 </head>
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -138,10 +138,10 @@
                         <div class="day">29</div><div class="month">May</div>
                     </div>
                     <div class="title">
-                        <h1 class="entry-title"><a href="index.html?p=15">MySQL 5.0 not so production ready?</a></h1>
+                        <h1 class="entry-title"><a href="/2006/mysql-50-not-so-production-ready">MySQL 5.0 not so production ready?</a></h1>
                         <small>
                         	posted <abbr class="published" title="2006-05-29T18:06:53+00:00">2006</abbr> // 
-                        	<a href="category/tech/index.html" title="View all posts in tech" rel="category tag">tech</a>, <a href="category/work/index.html" title="View all posts in work" rel="category tag">work</a> // <span class="comment"><a href="index.html?p=15#comments">0</a></span>
+                        	<a href="category/tech" title="View all posts in tech" rel="category tag">tech</a>, <a href="category/work" title="View all posts in work" rel="category tag">work</a> // <span class="comment"><a href="/2006/mysql-50-not-so-production-ready#comments">0</a></span>
                         </small>
                     </div>
                 </div>

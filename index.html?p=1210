@@ -97,7 +97,7 @@
 <body>
 <div id="container_header">
   <div id="header">
-    <div class="title"><a href="index.html">greg&#039;s weblog</a></div>
+    <div class="title"><a href="/">greg&#039;s weblog</a></div>
     <div class="slug">the more I learn, the less I know</div>
   </div>
 </div>
@@ -141,7 +141,7 @@
                         <h1 class="entry-title"><a href="/2011/phpunit-with-method-argument-matchers">PHPUnit with() method argument matchers</a></h1>
                         <small>
                         	posted <abbr class="published" title="2011-08-25T22:08:05+00:00">2011</abbr> // 
-                        	<a href="category/code/index.html" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a>, <a href="category/testing/index.html" title="View all posts in testing" rel="category tag">testing</a> // <span class="comment"><a href="/2011/phpunit-with-method-argument-matchers#comments">5</a></span>
+                        	<a href="category/code" title="View all posts in code" rel="category tag">code</a>, <a href="category/code/php/index.html" title="View all posts in php" rel="category tag">php</a>, <a href="category/testing" title="View all posts in testing" rel="category tag">testing</a> // <span class="comment"><a href="/2011/phpunit-with-method-argument-matchers#comments">5</a></span>
                         </small>
                     </div>
                 </div>
