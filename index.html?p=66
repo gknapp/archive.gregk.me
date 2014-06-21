@@ -174,16 +174,7 @@ I ran Ubuntu on my Macbook Pro seemlessly for just under 3 months before upgradi
               </div>
         </div>
     <div id="peripheral">
-      <div id="blog_meta">
-        <div id="search">
-                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
-                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
-                    </form>        </div>
-        
-        <div class="tags">
-          <h4>this post's tags</h4>
-                  </div>
-      </div>
+      <div id="blog_meta"></div>
       <div id="feeds">
 
       </div>

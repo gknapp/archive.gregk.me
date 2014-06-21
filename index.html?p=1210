@@ -233,10 +233,7 @@ $this-&gt;logicalXor();</p>
         </div>
     <div id="peripheral">
       <div id="blog_meta">
-        <div id="search">
-                    <form method="get" action="http://archive.gregk.me/search" accept-charset="utf-8">
-                        <fieldset><input type="text" id="query" name="s" value="" /></fieldset>
-                    </form>        </div>
+        
         
         <div class="tags">
           <h4>this post's tags</h4>
